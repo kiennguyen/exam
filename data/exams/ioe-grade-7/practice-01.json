@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "exam-ioe-g7-practice-01",
+  "collectionId": "col-ioe-en-g7",
+  "slug": "practice-01",
+  "title": "Luyện đề 01 — Ngữ pháp & từ vựng",
+  "instructions": "Đọc kỹ từng câu và chọn đáp án đúng. Có thể đánh dấu câu cần xem lại. Thời gian 20 phút.",
+  "durationSeconds": 1200,
+  "totalPoints": 10,
+  "version": "2025.11.14-p01",
+  "status": "published",
+  "sections": [
+    {
+      "id": "sec-grammar",
+      "title": "Phần 1: Ngữ pháp",
+      "order": 0,
+      "questionIds": ["p1-q1", "p1-q2", "p1-q3", "p1-q4", "p1-q5"]
+    },
+    {
+      "id": "sec-vocab",
+      "title": "Phần 2: Từ vựng",
+      "order": 1,
+      "questionIds": ["p1-q6", "p1-q7", "p1-q8", "p1-q9", "p1-q10"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "p1-q1",
+      "type": "single_choice",
+      "order": 1,
+      "points": 1,
+      "prompt": "There ___ some milk in the fridge.",
+      "options": [
+        { "id": "a", "label": "is" },
+        { "id": "b", "label": "are" },
+        { "id": "c", "label": "be" },
+        { "id": "d", "label": "am" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "'Milk' là danh từ không đếm được → dùng 'is'."
+    },
+    {
+      "id": "p1-q2",
+      "type": "single_choice",
+      "order": 2,
+      "points": 1,
+      "prompt": "My brother enjoys ___ chess in the evening.",
+      "options": [
+        { "id": "a", "label": "play" },
+        { "id": "b", "label": "to play" },
+        { "id": "c", "label": "playing" },
+        { "id": "d", "label": "played" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Động từ 'enjoy' thường đi với V-ing."
+    },
+    {
+      "id": "p1-q3",
+      "type": "single_choice",
+      "order": 3,
+      "points": 1,
+      "prompt": "If it rains, we ___ at home.",
+      "options": [
+        { "id": "a", "label": "stay" },
+        { "id": "b", "label": "stayed" },
+        { "id": "c", "label": "will stay" },
+        { "id": "d", "label": "staying" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Câu điều kiện loại 1: If + hiện tại đơn, will + V."
+    },
+    {
+      "id": "p1-q4",
+      "type": "single_choice",
+      "order": 4,
+      "points": 1,
+      "prompt": "This book is ___ than that one.",
+      "options": [
+        { "id": "a", "label": "interesting" },
+        { "id": "b", "label": "more interesting" },
+        { "id": "c", "label": "most interesting" },
+        { "id": "d", "label": "interestinger" }
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": "p1-q5",
+      "type": "multiple_choice",
+      "order": 5,
+      "points": 1,
+      "prompt": "Select all words that are adjectives:",
+      "options": [
+        { "id": "a", "label": "happy" },
+        { "id": "b", "label": "quickly" },
+        { "id": "c", "label": "beautiful" },
+        { "id": "d", "label": "run" }
+      ],
+      "correctAnswer": ["a", "c"],
+      "explanation": "'Quickly' là trạng từ; 'run' là động từ."
+    },
+    {
+      "id": "p1-q6",
+      "type": "single_choice",
+      "order": 6,
+      "points": 1,
+      "prompt": "The opposite of 'borrow' is:",
+      "options": [
+        { "id": "a", "label": "lend" },
+        { "id": "b", "label": "buy" },
+        { "id": "c", "label": "sell" },
+        { "id": "d", "label": "take" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": "p1-q7",
+      "type": "single_choice",
+      "order": 7,
+      "points": 1,
+      "prompt": "A person who fixes cars is a:",
+      "options": [
+        { "id": "a", "label": "mechanic" },
+        { "id": "b", "label": "dentist" },
+        { "id": "c", "label": "chef" },
+        { "id": "d", "label": "pilot" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": "p1-q8",
+      "type": "single_choice",
+      "order": 8,
+      "points": 1,
+      "prompt": "We should reduce plastic waste to ___ the environment.",
+      "options": [
+        { "id": "a", "label": "protect" },
+        { "id": "b", "label": "pollute" },
+        { "id": "c", "label": "destroy" },
+        { "id": "d", "label": "ignore" }
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "id": "p1-q9",
+      "type": "single_choice",
+      "order": 9,
+      "points": 1,
+      "prompt": "Choose the correct spelling:",
+      "options": [
+        { "id": "a", "label": "recieve" },
+        { "id": "b", "label": "receive" },
+        { "id": "c", "label": "receve" },
+        { "id": "d", "label": "receeve" }
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": "p1-q10",
+      "type": "single_choice",
+      "order": 10,
+      "points": 1,
+      "prompt": "They have lived here ___ 2018.",
+      "options": [
+        { "id": "a", "label": "for" },
+        { "id": "b", "label": "since" },
+        { "id": "c", "label": "in" },
+        { "id": "d", "label": "at" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Dùng 'since' + mốc thời gian cụ thể."
+    }
+  ]
+}

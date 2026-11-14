@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "exam-ioe-g7-demo-nhanh",
+  "collectionId": "col-ioe-en-g7",
+  "slug": "demo-nhanh",
+  "title": "Đề demo nhanh (5 câu)",
+  "instructions": "Chọn một đáp án đúng nhất cho mỗi câu. Thời gian làm bài 5 phút. Đây là đề mẫu để làm quen giao diện.",
+  "durationSeconds": 300,
+  "totalPoints": 6,
+  "version": "2025.11.14-demo",
+  "status": "published",
+  "sections": [
+    {
+      "id": "sec-main",
+      "title": "Trắc nghiệm",
+      "order": 0,
+      "questionIds": ["q1", "q2", "q3", "q4", "q5", "q6"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "order": 1,
+      "points": 1,
+      "prompt": "Choose the correct word: She ___ to school every day.",
+      "options": [
+        { "id": "a", "label": "go" },
+        { "id": "b", "label": "goes" },
+        { "id": "c", "label": "going" },
+        { "id": "d", "label": "gone" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Chủ ngữ 'She' (ngôi thứ 3 số ít) đi với động từ thêm -s/-es ở thì hiện tại đơn."
+    },
+    {
+      "id": "q2",
+      "type": "single_choice",
+      "order": 2,
+      "points": 1,
+      "prompt": "What is the opposite of 'hot'?",
+      "options": [
+        { "id": "a", "label": "warm" },
+        { "id": "b", "label": "cold" },
+        { "id": "c", "label": "cool" },
+        { "id": "d", "label": "dry" }
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": "q3",
+      "type": "single_choice",
+      "order": 3,
+      "points": 1,
+      "prompt": "How many days are there in a week?",
+      "options": [
+        { "id": "a", "label": "five" },
+        { "id": "b", "label": "six" },
+        { "id": "c", "label": "seven" },
+        { "id": "d", "label": "eight" }
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": "q4",
+      "type": "single_choice",
+      "order": 4,
+      "points": 1,
+      "prompt": "Which word is a color?",
+      "options": [
+        { "id": "a", "label": "table" },
+        { "id": "b", "label": "purple" },
+        { "id": "c", "label": "quickly" },
+        { "id": "d", "label": "because" }
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": "q5",
+      "type": "single_choice",
+      "order": 5,
+      "points": 1,
+      "prompt": "We ___ football last Sunday.",
+      "options": [
+        { "id": "a", "label": "play" },
+        { "id": "b", "label": "played" },
+        { "id": "c", "label": "playing" },
+        { "id": "d", "label": "plays" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "'Last Sunday' chỉ thời điểm trong quá khứ → dùng quá khứ đơn."
+    },
+    {
+      "id": "q6",
+      "type": "fill_blank",
+      "order": 6,
+      "points": 1,
+      "prompt": "Complete: She looks _____ her little brother every afternoon.",
+      "correctAnswer": "after",
+      "explanation": "Cụm 'look after' nghĩa là trông nom, chăm sóc."
+    }
+  ]
+}

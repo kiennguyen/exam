@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "exam-ioe-g7-practice-02",
+  "collectionId": "col-ioe-en-g7",
+  "slug": "practice-02",
+  "title": "Luyện đề 02 — Đọc hiểu ngắn",
+  "instructions": "Đọc đoạn văn và trả lời các câu hỏi. Thời gian 15 phút.",
+  "durationSeconds": 900,
+  "totalPoints": 8,
+  "version": "2025.11.14-p02",
+  "status": "published",
+  "sections": [
+    {
+      "id": "sec-reading",
+      "title": "Đọc hiểu",
+      "order": 0,
+      "questionIds": ["p2-q1", "p2-q2", "p2-q3", "p2-q4", "p2-q5", "p2-q6", "p2-q7", "p2-q8"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-q1",
+      "type": "single_choice",
+      "order": 1,
+      "points": 1,
+      "prompt": "Read: \"Lan wakes up at 6 a.m. She brushes her teeth and has breakfast with her family.\" — What does Lan do first?",
+      "options": [
+        { "id": "a", "label": "She has breakfast" },
+        { "id": "b", "label": "She wakes up" },
+        { "id": "c", "label": "She goes to school" },
+        { "id": "d", "label": "She watches TV" }
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": "p2-q2",
+      "type": "single_choice",
+      "order": 2,
+      "points": 1,
+      "prompt": "From the same text, who does Lan have breakfast with?",
+      "options": [
+        { "id": "a", "label": "Her friends" },
+        { "id": "b", "label": "Her teacher" },
+        { "id": "c", "label": "Her family" },
+        { "id": "d", "label": "Alone" }
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": "p2-q3",
+      "type": "single_choice",
+      "order": 3,
+      "points": 1,
+      "prompt": "\"The library is quiet and full of books.\" — The library is:",
+      "options": [
+        { "id": "a", "label": "noisy" },
+        { "id": "b", "label": "quiet" },
+        { "id": "c", "label": "empty" },
+        { "id": "d", "label": "dark" }
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": "p2-q4",
+      "type": "single_choice",
+      "order": 4,
+      "points": 1,
+      "prompt": "Choose the best title for a paragraph about how to save electricity at home:",
+      "options": [
+        { "id": "a", "label": "My favorite food" },
+        { "id": "b", "label": "Tips to save energy" },
+        { "id": "c", "label": "A trip to the zoo" },
+        { "id": "d", "label": "Sports at school" }
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": "p2-q5",
+      "type": "single_choice",
+      "order": 5,
+      "points": 1,
+      "prompt": "\"Although it was cold, Nam still rode his bike to school.\" — What can we infer?",
+      "options": [
+        { "id": "a", "label": "Nam stayed home" },
+        { "id": "b", "label": "The weather was hot" },
+        { "id": "c", "label": "Nam went to school by bike" },
+        { "id": "d", "label": "Nam does not like school" }
+      ],
+      "correctAnswer": "c"
+    },
+    {
+      "id": "p2-q6",
+      "type": "single_choice",
+      "order": 6,
+      "points": 1,
+      "prompt": "Which sentence is correct?",
+      "options": [
+        { "id": "a", "label": "She don't like apples." },
+        { "id": "b", "label": "She doesn't like apples." },
+        { "id": "c", "label": "She not like apples." },
+        { "id": "d", "label": "She doesn't likes apples." }
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": "p2-q7",
+      "type": "single_choice",
+      "order": 7,
+      "points": 1,
+      "prompt": "The word 'because' is used to show:",
+      "options": [
+        { "id": "a", "label": "time" },
+        { "id": "b", "label": "reason" },
+        { "id": "c", "label": "place" },
+        { "id": "d", "label": "manner" }
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "id": "p2-q8",
+      "type": "single_choice",
+      "order": 8,
+      "points": 1,
+      "prompt": "\"Students should wear uniforms to school.\" — This sentence is about:",
+      "options": [
+        { "id": "a", "label": "a school rule" },
+        { "id": "b", "label": "a holiday" },
+        { "id": "c", "label": "a recipe" },
+        { "id": "d", "label": "a sport" }
+      ],
+      "correctAnswer": "a"
+    }
+  ]
+}
