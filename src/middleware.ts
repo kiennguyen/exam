@@ -14,7 +14,11 @@ const PUBLIC_PREFIXES = [
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  if (pathname === ACCESS_GATE_PATH || pathname.startsWith("/api/access")) {
+  if (
+    pathname === ACCESS_GATE_PATH ||
+    pathname.startsWith("/api/access") ||
+    pathname === "/api/health"
+  ) {
     return NextResponse.next();
   }
 

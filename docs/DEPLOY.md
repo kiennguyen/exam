@@ -43,7 +43,7 @@ Hoặc dùng mật khẩu dài ≥ **16 ký tự** (không commit).
 ## 1. Tạo project trên Vercel (khuyến nghị)
 
 1. Đăng nhập [vercel.com](https://vercel.com) (cùng tài khoản GitHub nếu có thể).
-2. **Add New → Project** → import repo **`vaijob/exam`** (hoặc fork/clone đúng repo của bạn).
+2. **Add New → Project** → import repo GitHub đang push code (ví dụ **`kiennguyen/exam`**). Project phải **trùng repo** với `git remote origin`, nếu không production sẽ không nhận commit mới.
 3. **Root Directory:** để **`.`** (repo chỉ có app exam).
 4. **Framework Preset:** Next.js (tự nhận).
 5. **Build & Development Settings** (hoặc đọc từ `vercel.json`):
@@ -90,6 +90,15 @@ Sau khi thêm `NEXT_PUBLIC_SITE_URL`, **Redeploy** để sitemap/OG dùng URL đ
 ---
 
 ## 3. Kiểm tra sau deploy
+
+### Xác nhận đúng bản deploy (không cần đăng nhập)
+
+| URL | Kỳ vọng |
+|-----|---------|
+| `https://exam.vaijob.com/api/health` | JSON `ok: true`, `mediaStatic: true`, `commit` = 7 ký tự SHA (khớp `main` trên GitHub) |
+| `https://exam.vaijob.com/ioe-media/audio/635302352490500592_Audio.mp3` | **HTTP 200** (không redirect `/truy-cap`) |
+
+Nếu `/ioe-media/` vẫn 307 → production **chưa** có middleware mới: Vercel **Redeploy** hoặc đổi **Git repository** trong project settings.
 
 Checklist nhanh trên `https://exam.vaijob.com`:
 
