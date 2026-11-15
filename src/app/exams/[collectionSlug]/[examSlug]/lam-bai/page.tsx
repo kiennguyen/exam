@@ -6,15 +6,16 @@ export const metadata: Metadata = {
 };
 import { ExamTakeClient } from "@/components/exam/exam-take-client";
 import { getExamRepository, toPublicExam } from "@/lib/exam/repository";
+import { parseDurationParam } from "@/lib/session/duration-preference";
 
 interface Props {
   params: Promise<{ collectionSlug: string; examSlug: string }>;
-  searchParams: Promise<{ session?: string }>;
+  searchParams: Promise<{ session?: string; duration?: string }>;
 }
 
 export default async function ExamTakePage({ params, searchParams }: Props) {
   const { collectionSlug, examSlug } = await params;
-  const { session: resumeSessionId } = await searchParams;
+  const { session: resumeSessionId, duration: durationParam } = await searchParams;
   const repo = getExamRepository();
   const collection = await repo.getCollectionBySlug(collectionSlug);
   const exam = await repo.getExamBySlug(collectionSlug, examSlug);
@@ -29,6 +30,10 @@ export default async function ExamTakePage({ params, searchParams }: Props) {
   }
 
   const publicExam = toPublicExam(exam);
+  const durationSecondsOverride = parseDurationParam(
+    durationParam,
+    publicExam.durationSeconds
+  );
 
   return (
     <div className="flex min-h-0 flex-1 flex-col">
@@ -38,6 +43,7 @@ export default async function ExamTakePage({ params, searchParams }: Props) {
         examSlug={examSlug}
         initialExam={publicExam}
         resumeSessionId={resumeSessionId}
+        durationSecondsOverride={durationSecondsOverride}
       />
     </div>
   );

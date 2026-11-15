@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ButtonLink } from "@/components/ui/button";
 import { getExamRepository } from "@/lib/exam/repository";
-import { formatDuration } from "@/lib/format";
 import { ContinueExamBanner } from "@/components/exam/continue-exam-banner";
+import {
+  ExamDurationPicker,
+  ExamStartActions,
+} from "@/components/exam/exam-intro-controls";
 
 interface Props {
   params: Promise<{ collectionSlug: string; examSlug: string }>;
@@ -44,15 +46,16 @@ export default async function ExamIntroPage({ params }: Props) {
       <p className="mt-1 text-slate-600">{collection.title}</p>
 
       <ul className="mt-6 flex flex-wrap gap-4 text-sm text-slate-700">
-        <li className="rounded-xl bg-white px-4 py-2 border border-slate-200">
+        <li className="rounded-xl border border-slate-200 bg-white px-4 py-2">
           <span className="text-slate-500">Số câu</span>
           <p className="font-semibold">{exam.questions.length}</p>
         </li>
-        <li className="rounded-xl bg-white px-4 py-2 border border-slate-200">
-          <span className="text-slate-500">Thời lượng</span>
-          <p className="font-semibold">{formatDuration(exam.durationSeconds)}</p>
-        </li>
-        <li className="rounded-xl bg-white px-4 py-2 border border-slate-200">
+        <ExamDurationPicker
+          collectionSlug={collectionSlug}
+          examSlug={examSlug}
+          examDurationSeconds={exam.durationSeconds}
+        />
+        <li className="rounded-xl border border-slate-200 bg-white px-4 py-2">
           <span className="text-slate-500">Tổng điểm</span>
           <p className="font-semibold">{exam.totalPoints}</p>
         </li>
@@ -85,17 +88,11 @@ export default async function ExamIntroPage({ params }: Props) {
 
       <ContinueExamBanner collectionSlug={collectionSlug} examSlug={examSlug} />
 
-      <div className="mt-8 flex flex-wrap gap-3">
-        <ButtonLink
-          href={`/exams/${collectionSlug}/${examSlug}/lam-bai`}
-          variant="primary"
-        >
-          Bắt đầu làm bài
-        </ButtonLink>
-        <ButtonLink href="/de-thi" variant="secondary">
-          Quay lại danh sách
-        </ButtonLink>
-      </div>
+      <ExamStartActions
+        collectionSlug={collectionSlug}
+        examSlug={examSlug}
+        examDurationSeconds={exam.durationSeconds}
+      />
     </div>
   );
 }

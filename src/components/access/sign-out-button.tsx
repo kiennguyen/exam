@@ -28,7 +28,7 @@ export function SignOutButton({ className }: { className?: string }) {
         "rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-medium text-slate-800 hover:bg-slate-50 disabled:opacity-60"
       }
     >
-      {loading ? "Đang thoát…" : "Thoát / đổi người dùng"}
+      {loading ? "Đang thoát…" : "Thoát"}
     </button>
   );
 }

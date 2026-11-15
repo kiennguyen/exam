@@ -13,6 +13,10 @@ import {
   saveSession,
   type ExamSessionState,
 } from "@/lib/session/storage";
+import {
+  getDurationPreferenceSeconds,
+  setDurationPreferenceSeconds,
+} from "@/lib/session/duration-preference";
 import { QuestionPanel } from "./question-panel";
 import { SectionTabs } from "./section-tabs";
 import { Button } from "@/components/ui/button";
@@ -22,6 +26,7 @@ interface Props {
   examSlug: string;
   initialExam: PublicExam;
   resumeSessionId?: string;
+  durationSecondsOverride?: number;
 }
 
 function isAnswered(answer: UserAnswer): boolean {
@@ -125,6 +130,7 @@ export function ExamTakeClient({
   examSlug,
   initialExam,
   resumeSessionId,
+  durationSecondsOverride,
 }: Props) {
   const router = useRouter();
   const questions = useMemo(
@@ -169,6 +175,16 @@ export function ExamTakeClient({
 
     const sessionId = createSessionId();
     const startedAt = Date.now();
+    const durationSeconds =
+      durationSecondsOverride ??
+      getDurationPreferenceSeconds(
+        collectionSlug,
+        examSlug,
+        initialExam.durationSeconds
+      );
+    if (durationSecondsOverride) {
+      setDurationPreferenceSeconds(collectionSlug, examSlug, durationSeconds);
+    }
     const fresh: ExamSessionState = {
       sessionId,
       collectionSlug,
@@ -176,7 +192,7 @@ export function ExamTakeClient({
       examId: initialExam.id,
       examVersion: initialExam.version,
       startedAt,
-      deadlineAt: startedAt + initialExam.durationSeconds * 1000,
+      deadlineAt: startedAt + durationSeconds * 1000,
       answers: {},
       flagged: [],
       currentIndex: 0,
@@ -184,7 +200,7 @@ export function ExamTakeClient({
     };
     setSession(fresh);
     if (available) saveSession(fresh);
-  }, [collectionSlug, examSlug, initialExam, resumeSessionId]);
+  }, [collectionSlug, examSlug, initialExam, resumeSessionId, durationSecondsOverride]);
 
   useEffect(() => {
     initSession();
