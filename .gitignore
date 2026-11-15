@@ -35,7 +35,11 @@ yarn-error.log*
 
 # Local IOE imports (copyrighted source material — do not commit)
 /data/imported/
-/public/ioe-media/
+/public/ioe-media/**
+!/public/ioe-media/audio/
+!/public/ioe-media/audio/**
+!/public/ioe-media/images/
+!/public/ioe-media/images/**
 
 # vercel
 .vercel

@@ -38,6 +38,10 @@ Mở [http://localhost:3020](http://localhost:3020) (port mặc định; nếu b
 | `npm run ioe:build` | Import + đáp án → `data/exams/` |
 | `npm run ioe:publish-all` | Parse + build 50 đề + sync + validate |
 | `npm run ioe:extract-media` | Trích ảnh từ file đề Word |
+| `npm run ioe:parse-audio` | Map URL audio từ Word → `audio-map.json` |
+| `npm run ioe:download-audio` | Tải mp3 về `public/ioe-media/audio/` |
+| `npm run ioe:apply-audio` | Gắn `question.media` vào JSON đề |
+| `npm run ioe:audio-all` | Parse + tải + gắn (một lệnh) |
 | `npm run ioe:media-report` | Thống kê câu cần ảnh/audio trong đề build |
 | `npm run ioe:sync-collection` | Cập nhật `examIds` collection |
 
@@ -99,7 +103,7 @@ Xem [docs/IMPORT-IOE.md](docs/IMPORT-IOE.md). Tóm tắt: `npm run import:ioe` �
 
 ## TODO mở rộng
 
-- [x] 50 đề IOE: MC + điền khuyết + sắp xếp từ (~194 câu/đề; câu nghe chưa có audio) 
+- [x] 50 đề IOE: media local (ảnh 414/414; audio ~952/1000) — `npm run ioe:media-all`
 - [ ] Đăng nhập tùy chọn & đồng bộ đám mây
 - [x] Điền khuyết (`fill_blank`) — còn ghép cặp, nghe
 - [ ] Chuyển import JSON → Exam tự động (phần đã có đáp án)

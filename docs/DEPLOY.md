@@ -142,14 +142,18 @@ Workflow deploy khi push `main` (bỏ qua commit chỉ sửa `*.md` hoặc `docs
 
 ## 7. Media IOE (ảnh / audio)
 
-Ảnh chưa gắn hàng loạt. Local:
+**Audio (đã hỗ trợ):**
 
 ```bash
-npm run ioe:extract-media
-npm run ioe:media-report
+npm run ioe:audio-all
+npm run validate:exams
 ```
 
-File trong `public/ioe-media/` gitignore — muốn có trên production phải commit/copy CDN hoặc gắn `question.media` trong JSON.
+Mp3 nằm tại `public/ioe-media/audio/` (có thể commit — đã bỏ gitignore thư mục này). JSON đề có `question.media.url` dạng `/ioe-media/audio/...`.
+
+**Ảnh:** `npm run ioe:images-all` (parse + copy từ Word → `public/ioe-media/images/`).
+
+Tổng: `npm run ioe:media-all` (audio + ảnh). Sau đó `validate:exams` và commit JSON + `public/ioe-media/`.
 
 ---
 

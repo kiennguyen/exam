@@ -85,7 +85,10 @@ function examIdFor(n: number): string {
 }
 
 function cleanPrompt(prompt: string): string {
-  return prompt.replace(/^(Ảnh|Nghe):\s*/i, "").trim();
+  return prompt
+    .replace(/^(Ảnh|Nghe):\s*/i, "")
+    .replace(/^Nhấn giữ Ctrl và bấm chuột để nghe:\s*/i, "")
+    .trim();
 }
 
 async function loadImport(examNumber: number): Promise<ImportedExamFile> {
@@ -134,6 +137,7 @@ function buildExam(
     const meta = {
       sourceOrder: q.order,
       ...(q.printedOrder != null ? { printedOrder: q.printedOrder } : {}),
+      ...(q.sequence != null ? { sourceSequence: q.sequence } : {}),
       ...(q.hints?.includes("listening") ? { requiresAudio: true } : {}),
       ...(q.hints?.includes("image") ? { requiresImage: true } : {}),
     };

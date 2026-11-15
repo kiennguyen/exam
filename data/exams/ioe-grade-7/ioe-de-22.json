@@ -4,11 +4,10 @@
   "collectionId": "col-ioe-en-g7",
   "slug": "ioe-de-22",
   "title": "IOE lớp 7 — Đề 22",
-  "instructions": "Đề gồm 4 phần (~50 câu/phần). Có trắc nghiệm, điền khuyết và sắp xếp từ. Câu nghe có thể thiếu file audio trên web. Dùng thanh phần bên dưới để nhảy nhanh giữa các phần.",
+  "instructions": "Đề gồm 4 phần (~50 câu/phần). Có trắc nghiệm, điền khuyết và sắp xếp từ. Câu nghe có nút phát audio. Dùng thanh phần bên dưới để nhảy nhanh giữa các phần.",
   "durationSeconds": 1800,
   "totalPoints": 189,
-  "version": "ioe-import-ioe-de-22-189q",
-  "status": "published",
+  "version": "ioe-import-ioe-de-22-189q-audio-img",
   "sections": [
     {
       "id": "ioe-de-22-sec-1",
@@ -232,21 +231,22 @@
     {
       "id": "ioe-de-22-q001",
       "type": "fill_blank",
-      "order": 1,
-      "points": 1,
       "prompt": "Goodbye! – Bye, _ _ _ you later.",
+      "points": 1,
+      "order": 1,
       "correctAnswer": "see",
       "metadata": {
         "sourceOrder": 1,
-        "printedOrder": 1
+        "printedOrder": 1,
+        "sourceSequence": 1
       }
     },
     {
       "id": "ioe-de-22-q002",
       "type": "single_choice",
-      "order": 2,
-      "points": 1,
       "prompt": "Choose the word that has the underlined part pronounced differently:",
+      "points": 1,
+      "order": 2,
       "options": [
         {
           "id": "a",
@@ -268,39 +268,42 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 2,
-        "printedOrder": 2
+        "printedOrder": 2,
+        "sourceSequence": 2
       }
     },
     {
       "id": "ioe-de-22-q003",
       "type": "fill_blank",
-      "order": 3,
-      "points": 1,
       "prompt": "Nga is talking to her friend n_ _ .",
+      "points": 1,
+      "order": 3,
       "correctAnswer": "ow",
       "metadata": {
         "sourceOrder": 3,
-        "printedOrder": 3
+        "printedOrder": 3,
+        "sourceSequence": 3
       }
     },
     {
       "id": "ioe-de-22-q004",
       "type": "word_order",
-      "order": 4,
-      "points": 1,
       "prompt": "Chi will/ be fourteen/ on her/ birthday./ next/",
+      "points": 1,
+      "order": 4,
       "correctAnswer": "Chi will be fourteen on her next birthday.",
       "metadata": {
         "sourceOrder": 4,
-        "printedOrder": 4
+        "printedOrder": 4,
+        "sourceSequence": 4
       }
     },
     {
       "id": "ioe-de-22-q005",
       "type": "single_choice",
-      "order": 5,
+      "prompt": "Listen and tick:",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: Listen and tick:",
+      "order": 5,
       "options": [
         {
           "id": "a",
@@ -320,30 +323,37 @@
         }
       ],
       "correctAnswer": "d",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/635302353990287226_Audio.mp3",
+        "alt": "Audio (câu 5)"
+      },
       "metadata": {
         "sourceOrder": 5,
         "printedOrder": 5,
+        "sourceSequence": 5,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q006",
       "type": "fill_blank",
-      "order": 6,
-      "points": 1,
       "prompt": "_ _ _ _ _ is a nice souvenir shop down the street.",
+      "points": 1,
+      "order": 6,
       "correctAnswer": "There",
       "metadata": {
         "sourceOrder": 6,
-        "printedOrder": 6
+        "printedOrder": 6,
+        "sourceSequence": 6
       }
     },
     {
       "id": "ioe-de-22-q007",
       "type": "single_choice",
-      "order": 7,
+      "prompt": "Listen and tick:",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: Listen and tick:",
+      "order": 7,
       "options": [
         {
           "id": "a",
@@ -363,30 +373,37 @@
         }
       ],
       "correctAnswer": "c",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/635213183821850444_Audio.mp3",
+        "alt": "Audio (câu 7)"
+      },
       "metadata": {
         "sourceOrder": 7,
         "printedOrder": 7,
+        "sourceSequence": 7,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q008",
       "type": "word_order",
-      "order": 8,
-      "points": 1,
       "prompt": "I catch the/ bus near my/ bus stop to school./ walk from the/ house and then/",
+      "points": 1,
+      "order": 8,
       "correctAnswer": "I catch the bus near my house and then walk from the bus stop to school.",
       "metadata": {
         "sourceOrder": 8,
-        "printedOrder": 8
+        "printedOrder": 8,
+        "sourceSequence": 8
       }
     },
     {
       "id": "ioe-de-22-q009",
       "type": "single_choice",
-      "order": 9,
-      "points": 1,
       "prompt": "They’re going to Hanoi this summer vacation. A “vacation” here is also a ....",
+      "points": 1,
+      "order": 9,
       "options": [
         {
           "id": "a",
@@ -408,27 +425,29 @@
       "correctAnswer": "d",
       "metadata": {
         "sourceOrder": 9,
-        "printedOrder": 9
+        "printedOrder": 9,
+        "sourceSequence": 9
       }
     },
     {
       "id": "ioe-de-22-q010",
       "type": "word_order",
-      "order": 10,
-      "points": 1,
       "prompt": "realize our/ help us/ try to/ Our teachers/ full potential./",
+      "points": 1,
+      "order": 10,
       "correctAnswer": "Our teachers try to help us realize our full potential.",
       "metadata": {
         "sourceOrder": 10,
-        "printedOrder": 10
+        "printedOrder": 10,
+        "sourceSequence": 10
       }
     },
     {
       "id": "ioe-de-22-q011",
       "type": "single_choice",
-      "order": 11,
+      "prompt": "What did the man save some money for?",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: What did the man save some money for?",
+      "order": 11,
       "options": [
         {
           "id": "a",
@@ -448,18 +467,24 @@
         }
       ],
       "correctAnswer": "a",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/636168090746217437_Audio.mp3",
+        "alt": "Audio (câu 11)"
+      },
       "metadata": {
         "sourceOrder": 11,
         "printedOrder": 11,
+        "sourceSequence": 11,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q012",
       "type": "single_choice",
-      "order": 12,
-      "points": 1,
       "prompt": "In Vietnam, students … to wear uniforms at school.",
+      "points": 1,
+      "order": 12,
       "options": [
         {
           "id": "a",
@@ -481,51 +506,55 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 12,
-        "printedOrder": 12
+        "printedOrder": 12,
+        "sourceSequence": 12
       }
     },
     {
       "id": "ioe-de-22-q013",
       "type": "word_order",
-      "order": 13,
-      "points": 1,
       "prompt": "by plane,/ going to/ Ho Chi Minh city/ not by car./ Jackson’s brother is/",
+      "points": 1,
+      "order": 13,
       "correctAnswer": "Jackson’s brother is going to Ho Chi Minh city by plane, not by car.",
       "metadata": {
         "sourceOrder": 13,
-        "printedOrder": 13
+        "printedOrder": 13,
+        "sourceSequence": 13
       }
     },
     {
       "id": "ioe-de-22-q014",
       "type": "fill_blank",
-      "order": 14,
-      "points": 1,
       "prompt": "Did you _ _ _ _ the flu last week? – Yes, I did.",
+      "points": 1,
+      "order": 14,
       "correctAnswer": "have",
       "metadata": {
         "sourceOrder": 15,
-        "printedOrder": 15
+        "printedOrder": 15,
+        "sourceSequence": 15
       }
     },
     {
       "id": "ioe-de-22-q015",
       "type": "word_order",
-      "order": 15,
-      "points": 1,
       "prompt": "He/ next month./ years old/ twenty-one/ will be/",
+      "points": 1,
+      "order": 15,
       "correctAnswer": "He will be twenty-one years old next month.",
       "metadata": {
         "sourceOrder": 16,
-        "printedOrder": 16
+        "printedOrder": 16,
+        "sourceSequence": 16
       }
     },
     {
       "id": "ioe-de-22-q016",
       "type": "single_choice",
-      "order": 16,
-      "points": 1,
       "prompt": "The nurse will ... your height again.",
+      "points": 1,
+      "order": 16,
       "options": [
         {
           "id": "a",
@@ -547,63 +576,68 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 17,
-        "printedOrder": 17
+        "printedOrder": 17,
+        "sourceSequence": 17
       }
     },
     {
       "id": "ioe-de-22-q017",
       "type": "fill_blank",
-      "order": 17,
-      "points": 1,
       "prompt": "Alexander G. Bell worked with people _ _ _ could neither speak nor hear.",
+      "points": 1,
+      "order": 17,
       "correctAnswer": "who",
       "metadata": {
         "sourceOrder": 19,
-        "printedOrder": 19
+        "printedOrder": 19,
+        "sourceSequence": 19
       }
     },
     {
       "id": "ioe-de-22-q018",
       "type": "word_order",
-      "order": 18,
-      "points": 1,
       "prompt": "you/ Never should/ your/ forget/ dreams./",
+      "points": 1,
+      "order": 18,
       "correctAnswer": "Never should you forget your dreams.",
       "metadata": {
         "sourceOrder": 20,
-        "printedOrder": 20
+        "printedOrder": 20,
+        "sourceSequence": 20
       }
     },
     {
       "id": "ioe-de-22-q019",
       "type": "word_order",
-      "order": 19,
-      "points": 1,
       "prompt": "Unlike the/ novels,/ films show/ more/ actions./",
+      "points": 1,
+      "order": 19,
       "correctAnswer": "Unlike the novels, films show more actions.",
       "metadata": {
         "sourceOrder": 21,
-        "printedOrder": 21
+        "printedOrder": 21,
+        "sourceSequence": 21
       }
     },
     {
       "id": "ioe-de-22-q020",
       "type": "fill_blank",
-      "order": 20,
-      "points": 1,
       "prompt": "What are you doing, Nam? - I’m _ _ _ _ _ _ _ a letter from Tony.",
+      "points": 1,
+      "order": 20,
       "correctAnswer": "reading",
       "metadata": {
         "sourceOrder": 22,
-        "printedOrder": 22
+        "printedOrder": 22,
+        "sourceSequence": 22
       }
     },
     {
       "id": "ioe-de-22-q021",
       "type": "single_choice",
-      "order": 21,
+      "prompt": "Listen and tick:",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: Listen and tick:",
+      "order": 21,
       "options": [
         {
           "id": "a",
@@ -623,18 +657,24 @@
         }
       ],
       "correctAnswer": "c",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/635302352490500592_Audio.mp3",
+        "alt": "Audio (câu 23)"
+      },
       "metadata": {
         "sourceOrder": 23,
         "printedOrder": 23,
+        "sourceSequence": 23,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q022",
       "type": "single_choice",
-      "order": 22,
+      "prompt": "What does he like? - ....",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: What does he like? - ....",
+      "order": 22,
       "options": [
         {
           "id": "a",
@@ -654,18 +694,24 @@
         }
       ],
       "correctAnswer": "a",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/635612601878637771_Audio.mp3",
+        "alt": "Audio (câu 24)"
+      },
       "metadata": {
         "sourceOrder": 24,
         "printedOrder": 24,
+        "sourceSequence": 24,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q023",
       "type": "single_choice",
-      "order": 23,
-      "points": 1,
       "prompt": "Choose the word which has different stress pattern:",
+      "points": 1,
+      "order": 23,
       "options": [
         {
           "id": "a",
@@ -687,136 +733,152 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 25,
-        "printedOrder": 25
+        "printedOrder": 25,
+        "sourceSequence": 25
       }
     },
     {
       "id": "ioe-de-22-q024",
       "type": "word_order",
-      "order": 24,
-      "points": 1,
       "prompt": "something/ I remember/ new to/ that I have/ tell you./",
+      "points": 1,
+      "order": 24,
       "correctAnswer": "I remember that I have something new to tell you.",
       "metadata": {
         "sourceOrder": 26,
-        "printedOrder": 26
+        "printedOrder": 26,
+        "sourceSequence": 26
       }
     },
     {
       "id": "ioe-de-22-q025",
       "type": "fill_blank",
-      "order": 25,
-      "points": 1,
       "prompt": "When it becomes hot, people often feel th_ _ _ _ _ .",
+      "points": 1,
+      "order": 25,
       "correctAnswer": "irsty",
       "metadata": {
         "sourceOrder": 27,
-        "printedOrder": 27
+        "printedOrder": 27,
+        "sourceSequence": 27
       }
     },
     {
       "id": "ioe-de-22-q026",
       "type": "fill_blank",
-      "order": 26,
-      "points": 1,
       "prompt": "Your application must be made _ _ _ _ 3 copies for handling by our company.",
+      "points": 1,
+      "order": 26,
       "correctAnswer": "into",
       "metadata": {
         "sourceOrder": 28,
-        "printedOrder": 28
+        "printedOrder": 28,
+        "sourceSequence": 28
       }
     },
     {
       "id": "ioe-de-22-q027",
       "type": "word_order",
-      "order": 27,
-      "points": 1,
       "prompt": "Which/ fruits/ would you/ like, apples/ or bananas?/",
+      "points": 1,
+      "order": 27,
       "correctAnswer": "Which fruits would you like, apples or bananas?",
       "metadata": {
         "sourceOrder": 29,
-        "printedOrder": 29
+        "printedOrder": 29,
+        "sourceSequence": 29
       }
     },
     {
       "id": "ioe-de-22-q028",
       "type": "word_order",
-      "order": 28,
-      "points": 1,
       "prompt": "are/ visit us/ My grandparents/ going to/ next Sunday./",
+      "points": 1,
+      "order": 28,
       "correctAnswer": "My grandparents are going to visit us next Sunday.",
       "metadata": {
         "sourceOrder": 30,
-        "printedOrder": 30
+        "printedOrder": 30,
+        "sourceSequence": 30
       }
     },
     {
       "id": "ioe-de-22-q029",
       "type": "fill_blank",
-      "order": 29,
-      "points": 1,
       "prompt": "Most people know that coffee makes it difficult to go to _ _ _ _ _ .",
+      "points": 1,
+      "order": 29,
       "correctAnswer": "sleep",
+      "media": {
+        "type": "image",
+        "url": "/ioe-media/images/image3.jpeg",
+        "alt": "Minh họa câu 31"
+      },
       "metadata": {
         "sourceOrder": 31,
         "printedOrder": 31,
+        "sourceSequence": 31,
         "requiresImage": true
       }
     },
     {
       "id": "ioe-de-22-q030",
       "type": "fill_blank",
-      "order": 30,
-      "points": 1,
       "prompt": "Mr. Pike often takes his sons to the _ _ _ to see wild animals.",
+      "points": 1,
+      "order": 30,
       "correctAnswer": "zoo",
       "metadata": {
         "sourceOrder": 32,
-        "printedOrder": 32
+        "printedOrder": 32,
+        "sourceSequence": 32
       }
     },
     {
       "id": "ioe-de-22-q031",
       "type": "word_order",
-      "order": 31,
-      "points": 1,
       "prompt": "library after/ school./ She always/ in the/ studies/",
+      "points": 1,
+      "order": 31,
       "correctAnswer": "She always studies in the library after school.",
       "metadata": {
         "sourceOrder": 33,
-        "printedOrder": 33
+        "printedOrder": 33,
+        "sourceSequence": 33
       }
     },
     {
       "id": "ioe-de-22-q032",
       "type": "fill_blank",
-      "order": 32,
-      "points": 1,
       "prompt": "_ _ _ _ _ day of the week is the School’s festival day?",
+      "points": 1,
+      "order": 32,
       "correctAnswer": "which",
       "metadata": {
         "sourceOrder": 34,
-        "printedOrder": 34
+        "printedOrder": 34,
+        "sourceSequence": 34
       }
     },
     {
       "id": "ioe-de-22-q033",
       "type": "fill_blank",
-      "order": 33,
-      "points": 1,
       "prompt": "The stomachache prevented Mr. Thanh _ _ _ _ enjoying the meal.",
+      "points": 1,
+      "order": 33,
       "correctAnswer": "from",
       "metadata": {
         "sourceOrder": 35,
-        "printedOrder": 35
+        "printedOrder": 35,
+        "sourceSequence": 35
       }
     },
     {
       "id": "ioe-de-22-q034",
       "type": "single_choice",
-      "order": 34,
-      "points": 1,
       "prompt": "It says on her report that she ... 40 kilos.",
+      "points": 1,
+      "order": 34,
       "options": [
         {
           "id": "a",
@@ -838,15 +900,16 @@
       "correctAnswer": "a",
       "metadata": {
         "sourceOrder": 37,
-        "printedOrder": 37
+        "printedOrder": 37,
+        "sourceSequence": 37
       }
     },
     {
       "id": "ioe-de-22-q035",
       "type": "single_choice",
-      "order": 35,
-      "points": 1,
       "prompt": "Where is the supermarket? – It’s ... the hospital.",
+      "points": 1,
+      "order": 35,
       "options": [
         {
           "id": "a",
@@ -868,15 +931,16 @@
       "correctAnswer": "d",
       "metadata": {
         "sourceOrder": 38,
-        "printedOrder": 38
+        "printedOrder": 38,
+        "sourceSequence": 38
       }
     },
     {
       "id": "ioe-de-22-q036",
       "type": "single_choice",
-      "order": 36,
-      "points": 1,
       "prompt": "Last year I … on a home-stay to the United States.",
+      "points": 1,
+      "order": 36,
       "options": [
         {
           "id": "a",
@@ -898,28 +962,35 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 39,
-        "printedOrder": 39
+        "printedOrder": 39,
+        "sourceSequence": 39
       }
     },
     {
       "id": "ioe-de-22-q037",
       "type": "fill_blank",
-      "order": 37,
-      "points": 1,
       "prompt": "Have you got a headache and _ _ _ _ _ _ _ _ ?",
+      "points": 1,
+      "order": 37,
       "correctAnswer": "backache",
+      "media": {
+        "type": "image",
+        "url": "/ioe-media/images/image5.jpeg",
+        "alt": "Minh họa câu 40"
+      },
       "metadata": {
         "sourceOrder": 40,
         "printedOrder": 40,
+        "sourceSequence": 40,
         "requiresImage": true
       }
     },
     {
       "id": "ioe-de-22-q038",
       "type": "single_choice",
-      "order": 38,
-      "points": 1,
       "prompt": "You have made … mistakes in your writing.",
+      "points": 1,
+      "order": 38,
       "options": [
         {
           "id": "a",
@@ -941,39 +1012,42 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 41,
-        "printedOrder": 41
+        "printedOrder": 41,
+        "sourceSequence": 41
       }
     },
     {
       "id": "ioe-de-22-q039",
       "type": "word_order",
-      "order": 39,
-      "points": 1,
       "prompt": "there/ Are/ enough/ in this meeting?/ people/",
+      "points": 1,
+      "order": 39,
       "correctAnswer": "Are there enough people in this meeting?",
       "metadata": {
         "sourceOrder": 42,
-        "printedOrder": 42
+        "printedOrder": 42,
+        "sourceSequence": 42
       }
     },
     {
       "id": "ioe-de-22-q040",
       "type": "fill_blank",
-      "order": 40,
-      "points": 1,
       "prompt": "Do you enjoy _ _ _ _ _ given gifts by the others on your birthday?",
+      "points": 1,
+      "order": 40,
       "correctAnswer": "being",
       "metadata": {
         "sourceOrder": 43,
-        "printedOrder": 43
+        "printedOrder": 43,
+        "sourceSequence": 43
       }
     },
     {
       "id": "ioe-de-22-q041",
       "type": "single_choice",
-      "order": 41,
-      "points": 1,
       "prompt": "In the class, nobody’s eaten Chinese food and … I.",
+      "points": 1,
+      "order": 41,
       "options": [
         {
           "id": "a",
@@ -995,27 +1069,29 @@
       "correctAnswer": "d",
       "metadata": {
         "sourceOrder": 44,
-        "printedOrder": 44
+        "printedOrder": 44,
+        "sourceSequence": 44
       }
     },
     {
       "id": "ioe-de-22-q042",
       "type": "fill_blank",
-      "order": 42,
-      "points": 1,
       "prompt": "The scientists in the world are _ _ _ _ _ research on AIDS.",
+      "points": 1,
+      "order": 42,
       "correctAnswer": "doing",
       "metadata": {
         "sourceOrder": 45,
-        "printedOrder": 45
+        "printedOrder": 45,
+        "sourceSequence": 45
       }
     },
     {
       "id": "ioe-de-22-q043",
       "type": "single_choice",
-      "order": 43,
-      "points": 1,
       "prompt": "Choose the word that has the underlined part pronounced differently from the others:",
+      "points": 1,
+      "order": 43,
       "options": [
         {
           "id": "a",
@@ -1037,27 +1113,29 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 46,
-        "printedOrder": 46
+        "printedOrder": 46,
+        "sourceSequence": 46
       }
     },
     {
       "id": "ioe-de-22-q044",
       "type": "fill_blank",
-      "order": 44,
-      "points": 1,
       "prompt": "The doctor told me to stop thinking and then took some exercises. I felt relaxing _ _ _ _ _ _ ard.",
+      "points": 1,
+      "order": 44,
       "correctAnswer": "afterw",
       "metadata": {
         "sourceOrder": 47,
-        "printedOrder": 47
+        "printedOrder": 47,
+        "sourceSequence": 47
       }
     },
     {
       "id": "ioe-de-22-q045",
       "type": "single_choice",
-      "order": 45,
-      "points": 1,
       "prompt": "A ... can fix your tooth.",
+      "points": 1,
+      "order": 45,
       "options": [
         {
           "id": "a",
@@ -1079,15 +1157,16 @@
       "correctAnswer": "a",
       "metadata": {
         "sourceOrder": 48,
-        "printedOrder": 48
+        "printedOrder": 48,
+        "sourceSequence": 48
       }
     },
     {
       "id": "ioe-de-22-q046",
       "type": "single_choice",
-      "order": 46,
-      "points": 1,
       "prompt": "The medicines ... the symptoms of the common cold.",
+      "points": 1,
+      "order": 46,
       "options": [
         {
           "id": "a",
@@ -1109,27 +1188,29 @@
       "correctAnswer": "a",
       "metadata": {
         "sourceOrder": 49,
-        "printedOrder": 49
+        "printedOrder": 49,
+        "sourceSequence": 49
       }
     },
     {
       "id": "ioe-de-22-q047",
       "type": "word_order",
-      "order": 47,
-      "points": 1,
       "prompt": "at birth?/ does a/ baby elephant/ How much/ weigh/",
+      "points": 1,
+      "order": 47,
       "correctAnswer": "How much does a baby elephant weigh at birth?",
       "metadata": {
         "sourceOrder": 50,
-        "printedOrder": 50
+        "printedOrder": 50,
+        "sourceSequence": 50
       }
     },
     {
       "id": "ioe-de-22-q048",
       "type": "single_choice",
-      "order": 48,
-      "points": 1,
       "prompt": "He has a garage. The garage is ….",
+      "points": 1,
+      "order": 48,
       "options": [
         {
           "id": "a",
@@ -1151,15 +1232,16 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 51,
-        "printedOrder": 51
+        "printedOrder": 51,
+        "sourceSequence": 51
       }
     },
     {
       "id": "ioe-de-22-q049",
       "type": "single_choice",
-      "order": 49,
-      "points": 1,
       "prompt": "We say toothache, headache and ... eyes.",
+      "points": 1,
+      "order": 49,
       "options": [
         {
           "id": "a",
@@ -1181,27 +1263,29 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 52,
-        "printedOrder": 52
+        "printedOrder": 52,
+        "sourceSequence": 52
       }
     },
     {
       "id": "ioe-de-22-q050",
       "type": "fill_blank",
-      "order": 50,
-      "points": 1,
       "prompt": "Did you play volleyball _ _ _ _ week? – No, I didn’t.",
+      "points": 1,
+      "order": 50,
       "correctAnswer": "last",
       "metadata": {
         "sourceOrder": 53,
-        "printedOrder": 53
+        "printedOrder": 53,
+        "sourceSequence": 53
       }
     },
     {
       "id": "ioe-de-22-q051",
       "type": "single_choice",
-      "order": 51,
-      "points": 1,
       "prompt": "It’s nearly 5 pm. “Nearly” here is similar to ....",
+      "points": 1,
+      "order": 51,
       "options": [
         {
           "id": "a",
@@ -1223,63 +1307,68 @@
       "correctAnswer": "d",
       "metadata": {
         "sourceOrder": 54,
-        "printedOrder": 54
+        "printedOrder": 54,
+        "sourceSequence": 54
       }
     },
     {
       "id": "ioe-de-22-q052",
       "type": "word_order",
-      "order": 52,
-      "points": 1,
       "prompt": "the household chores./ It will/ hour to do/ take me an/",
+      "points": 1,
+      "order": 52,
       "correctAnswer": "It will take me an hour to do the household chores.",
       "metadata": {
         "sourceOrder": 55,
-        "printedOrder": 55
+        "printedOrder": 55,
+        "sourceSequence": 55
       }
     },
     {
       "id": "ioe-de-22-q053",
       "type": "word_order",
-      "order": 53,
-      "points": 1,
       "prompt": "write to/ regularly./ My friend/ each other/ and I/",
+      "points": 1,
+      "order": 53,
       "correctAnswer": "My friend and I write to each other regularly.",
       "metadata": {
         "sourceOrder": 56,
-        "printedOrder": 56
+        "printedOrder": 56,
+        "sourceSequence": 56
       }
     },
     {
       "id": "ioe-de-22-q054",
       "type": "fill_blank",
-      "order": 54,
-      "points": 1,
       "prompt": "My aunt has two children, one boy and one _ _ _ _ .",
+      "points": 1,
+      "order": 54,
       "correctAnswer": "girl",
       "metadata": {
         "sourceOrder": 57,
-        "printedOrder": 57
+        "printedOrder": 57,
+        "sourceSequence": 57
       }
     },
     {
       "id": "ioe-de-22-q055",
       "type": "fill_blank",
-      "order": 55,
-      "points": 1,
       "prompt": "How often do you _ _ _ _ _ your room?",
+      "points": 1,
+      "order": 55,
       "correctAnswer": "clean",
       "metadata": {
         "sourceOrder": 59,
-        "printedOrder": 59
+        "printedOrder": 59,
+        "sourceSequence": 59
       }
     },
     {
       "id": "ioe-de-22-q056",
       "type": "single_choice",
-      "order": 56,
-      "points": 1,
       "prompt": "Do you want some ... these cakes?",
+      "points": 1,
+      "order": 56,
       "options": [
         {
           "id": "a",
@@ -1301,64 +1390,74 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 61,
-        "printedOrder": 61
+        "printedOrder": 61,
+        "sourceSequence": 61
       }
     },
     {
       "id": "ioe-de-22-q057",
       "type": "fill_blank",
-      "order": 57,
+      "prompt": "I was so tired, so I had a glass of _ _ _ _ _ _ _ _ .",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: I was so tired, so I had a glass of _ _ _ _ _ _ _ _ .",
+      "order": 57,
       "correctAnswer": "lemonade",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/636241436304616058_Audio.mp3",
+        "alt": "Audio (câu 62)"
+      },
       "metadata": {
         "sourceOrder": 62,
         "printedOrder": 62,
+        "sourceSequence": 62,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q058",
       "type": "word_order",
-      "order": 58,
-      "points": 1,
       "prompt": "forest./ They/ to race/ began/ in the/",
+      "points": 1,
+      "order": 58,
       "correctAnswer": "They began to race in the forest.",
       "metadata": {
         "sourceOrder": 63,
-        "printedOrder": 63
+        "printedOrder": 63,
+        "sourceSequence": 63
       }
     },
     {
       "id": "ioe-de-22-q059",
       "type": "word_order",
-      "order": 59,
-      "points": 1,
       "prompt": "some money/ Tom received/ this morning./ his elder sister/ from/",
+      "points": 1,
+      "order": 59,
       "correctAnswer": "Tom received some money from his elder sister this morning.",
       "metadata": {
         "sourceOrder": 64,
-        "printedOrder": 64
+        "printedOrder": 64,
+        "sourceSequence": 64
       }
     },
     {
       "id": "ioe-de-22-q060",
       "type": "fill_blank",
-      "order": 60,
-      "points": 1,
       "prompt": "Mrs. Lien said you could reach her _ _",
+      "points": 1,
+      "order": 60,
       "correctAnswer": "at",
       "metadata": {
         "sourceOrder": 65,
-        "printedOrder": 65
+        "printedOrder": 65,
+        "sourceSequence": 65
       }
     },
     {
       "id": "ioe-de-22-q061",
       "type": "single_choice",
-      "order": 61,
-      "points": 1,
       "prompt": "How much does it … to mail a local letter in Vietnam?",
+      "points": 1,
+      "order": 61,
       "options": [
         {
           "id": "a",
@@ -1380,15 +1479,16 @@
       "correctAnswer": "d",
       "metadata": {
         "sourceOrder": 66,
-        "printedOrder": 66
+        "printedOrder": 66,
+        "sourceSequence": 67
       }
     },
     {
       "id": "ioe-de-22-q062",
       "type": "single_choice",
-      "order": 62,
-      "points": 1,
       "prompt": "In Britain school always … in September.",
+      "points": 1,
+      "order": 62,
       "options": [
         {
           "id": "a",
@@ -1410,88 +1510,100 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 67,
-        "printedOrder": 67
+        "printedOrder": 67,
+        "sourceSequence": 68
       }
     },
     {
       "id": "ioe-de-22-q063",
       "type": "fill_blank",
-      "order": 63,
+      "prompt": "I just work day by day to _ _ _ _ _ my bad habits.",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: I just work day by day to _ _ _ _ _ my bad habits.",
+      "order": 63,
       "correctAnswer": "break",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/636865180515796394_Audio.mp3",
+        "alt": "Audio (câu 69)"
+      },
       "metadata": {
         "sourceOrder": 68,
         "printedOrder": 68,
+        "sourceSequence": 69,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q064",
       "type": "fill_blank",
-      "order": 64,
-      "points": 1,
       "prompt": "Where _ _ _ _ you yesterday evening? I didn’t see you.",
+      "points": 1,
+      "order": 64,
       "correctAnswer": "were",
       "metadata": {
         "sourceOrder": 69,
-        "printedOrder": 69
+        "printedOrder": 69,
+        "sourceSequence": 70
       }
     },
     {
       "id": "ioe-de-22-q065",
       "type": "fill_blank",
-      "order": 65,
-      "points": 1,
       "prompt": "Keep _ _ _ _ _ _ , please. Our teacher is explaining the lesson.",
+      "points": 1,
+      "order": 65,
       "correctAnswer": "silent",
       "metadata": {
         "sourceOrder": 70,
-        "printedOrder": 70
+        "printedOrder": 70,
+        "sourceSequence": 71
       }
     },
     {
       "id": "ioe-de-22-q066",
       "type": "fill_blank",
-      "order": 66,
-      "points": 1,
       "prompt": "You have to work h_ _ _ _ _ when you grow up.",
+      "points": 1,
+      "order": 66,
       "correctAnswer": "arder",
       "metadata": {
         "sourceOrder": 71,
-        "printedOrder": 71
+        "printedOrder": 71,
+        "sourceSequence": 72
       }
     },
     {
       "id": "ioe-de-22-q067",
       "type": "word_order",
-      "order": 67,
-      "points": 1,
       "prompt": "cooking/ an hour/ lunch./ My mother/ spends half/",
+      "points": 1,
+      "order": 67,
       "correctAnswer": "My mother spends half an hour cooking lunch.",
       "metadata": {
         "sourceOrder": 72,
-        "printedOrder": 72
+        "printedOrder": 72,
+        "sourceSequence": 73
       }
     },
     {
       "id": "ioe-de-22-q068",
       "type": "word_order",
-      "order": 68,
-      "points": 1,
       "prompt": "there/ Are/ birds/ on the tree?/ any/",
+      "points": 1,
+      "order": 68,
       "correctAnswer": "Are there any birds on the tree?",
       "metadata": {
         "sourceOrder": 73,
-        "printedOrder": 73
+        "printedOrder": 73,
+        "sourceSequence": 74
       }
     },
     {
       "id": "ioe-de-22-q069",
       "type": "single_choice",
-      "order": 69,
-      "points": 1,
       "prompt": "I ... up late last night, so I ... up late this morning.",
+      "points": 1,
+      "order": 69,
       "options": [
         {
           "id": "a",
@@ -1513,39 +1625,42 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 74,
-        "printedOrder": 74
+        "printedOrder": 74,
+        "sourceSequence": 75
       }
     },
     {
       "id": "ioe-de-22-q070",
       "type": "word_order",
-      "order": 70,
-      "points": 1,
       "prompt": "interesting/ to/ Is it/ travel/ by plane?/",
+      "points": 1,
+      "order": 70,
       "correctAnswer": "Is it interesting to travel by plane?",
       "metadata": {
         "sourceOrder": 75,
-        "printedOrder": 75
+        "printedOrder": 75,
+        "sourceSequence": 76
       }
     },
     {
       "id": "ioe-de-22-q071",
       "type": "word_order",
-      "order": 71,
-      "points": 1,
       "prompt": "Today/ April/ 2015./ 11th of/ is/",
+      "points": 1,
+      "order": 71,
       "correctAnswer": "Today is 11th of April 2015.",
       "metadata": {
         "sourceOrder": 76,
-        "printedOrder": 76
+        "printedOrder": 76,
+        "sourceSequence": 77
       }
     },
     {
       "id": "ioe-de-22-q072",
       "type": "single_choice",
-      "order": 72,
-      "points": 1,
       "prompt": "Odd one out:",
+      "points": 1,
+      "order": 72,
       "options": [
         {
           "id": "a",
@@ -1567,15 +1682,16 @@
       "correctAnswer": "d",
       "metadata": {
         "sourceOrder": 77,
-        "printedOrder": 77
+        "printedOrder": 77,
+        "sourceSequence": 78
       }
     },
     {
       "id": "ioe-de-22-q073",
       "type": "single_choice",
-      "order": 73,
+      "prompt": "Where does she usually work? - ....",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: Where does she usually work? - ....",
+      "order": 73,
       "options": [
         {
           "id": "a",
@@ -1595,18 +1711,24 @@
         }
       ],
       "correctAnswer": "a",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/635302350774965579_Audio.mp3",
+        "alt": "Audio (câu 79)"
+      },
       "metadata": {
         "sourceOrder": 78,
         "printedOrder": 78,
+        "sourceSequence": 79,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q074",
       "type": "single_choice",
-      "order": 74,
-      "points": 1,
       "prompt": "My new glasses cost me … the last pair that I bought.",
+      "points": 1,
+      "order": 74,
       "options": [
         {
           "id": "a",
@@ -1628,27 +1750,29 @@
       "correctAnswer": "a",
       "metadata": {
         "sourceOrder": 79,
-        "printedOrder": 79
+        "printedOrder": 79,
+        "sourceSequence": 80
       }
     },
     {
       "id": "ioe-de-22-q075",
       "type": "word_order",
-      "order": 75,
-      "points": 1,
       "prompt": "week./ in a/ days a/ Mr. John works/ factory five/",
+      "points": 1,
+      "order": 75,
       "correctAnswer": "Mr. John works in a factory five days a week.",
       "metadata": {
         "sourceOrder": 80,
-        "printedOrder": 80
+        "printedOrder": 80,
+        "sourceSequence": 81
       }
     },
     {
       "id": "ioe-de-22-q076",
       "type": "single_choice",
-      "order": 76,
-      "points": 1,
       "prompt": "Choose the word that has the underlined part pronounced differently from the others:",
+      "points": 1,
+      "order": 76,
       "options": [
         {
           "id": "a",
@@ -1670,27 +1794,29 @@
       "correctAnswer": "d",
       "metadata": {
         "sourceOrder": 81,
-        "printedOrder": 81
+        "printedOrder": 81,
+        "sourceSequence": 82
       }
     },
     {
       "id": "ioe-de-22-q077",
       "type": "word_order",
-      "order": 77,
-      "points": 1,
       "prompt": "the shelf/ the right./ English books/ are on/ to/",
+      "points": 1,
+      "order": 77,
       "correctAnswer": "English books are on the shelf to the right.",
       "metadata": {
         "sourceOrder": 82,
-        "printedOrder": 82
+        "printedOrder": 82,
+        "sourceSequence": 83
       }
     },
     {
       "id": "ioe-de-22-q078",
       "type": "single_choice",
-      "order": 78,
-      "points": 1,
       "prompt": "Every day the doctor has to … surgery on different patients.",
+      "points": 1,
+      "order": 78,
       "options": [
         {
           "id": "a",
@@ -1712,28 +1838,35 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 83,
-        "printedOrder": 83
+        "printedOrder": 83,
+        "sourceSequence": 84
       }
     },
     {
       "id": "ioe-de-22-q079",
       "type": "fill_blank",
-      "order": 79,
+      "prompt": "As we were _ _ _ _ _ _ _ _ the street, we saw an accident.",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: As we were _ _ _ _ _ _ _ _ the street, we saw an accident.",
+      "order": 79,
       "correctAnswer": "crossing",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/635563935835834218_Audio.mp3",
+        "alt": "Audio (câu 85)"
+      },
       "metadata": {
         "sourceOrder": 84,
         "printedOrder": 84,
+        "sourceSequence": 85,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q080",
       "type": "single_choice",
-      "order": 80,
-      "points": 1,
       "prompt": "My grandfather is ... man.",
+      "points": 1,
+      "order": 80,
       "options": [
         {
           "id": "a",
@@ -1755,41 +1888,54 @@
       "correctAnswer": "d",
       "metadata": {
         "sourceOrder": 85,
-        "printedOrder": 85
+        "printedOrder": 85,
+        "sourceSequence": 86
       }
     },
     {
       "id": "ioe-de-22-q081",
       "type": "fill_blank",
-      "order": 81,
-      "points": 1,
       "prompt": "My sister plays flute in our school _ _ _ _ _ _ tra.",
+      "points": 1,
+      "order": 81,
       "correctAnswer": "orches",
+      "media": {
+        "type": "image",
+        "url": "/ioe-media/images/image4.png",
+        "alt": "Minh họa câu 87"
+      },
       "metadata": {
         "sourceOrder": 86,
         "printedOrder": 86,
+        "sourceSequence": 87,
         "requiresImage": true
       }
     },
     {
       "id": "ioe-de-22-q082",
       "type": "fill_blank",
-      "order": 82,
+      "prompt": "I made a _ _ _ _ _ _ _ _ card for my dad.",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: I made a _ _ _ _ _ _ _ _ card for my dad.",
+      "order": 82,
       "correctAnswer": "birthday",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/636241545041554337_Audio.mp3",
+        "alt": "Audio (câu 88)"
+      },
       "metadata": {
         "sourceOrder": 87,
         "printedOrder": 87,
+        "sourceSequence": 88,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q083",
       "type": "single_choice",
-      "order": 83,
-      "points": 1,
       "prompt": "Which sentence is incorrect?",
+      "points": 1,
+      "order": 83,
       "options": [
         {
           "id": "a",
@@ -1811,28 +1957,35 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 88,
-        "printedOrder": 88
+        "printedOrder": 88,
+        "sourceSequence": 89
       }
     },
     {
       "id": "ioe-de-22-q084",
       "type": "fill_blank",
-      "order": 84,
+      "prompt": "I apologize if I hurt your _ _ _ _ _ _ _ _ .",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: I apologize if I hurt your _ _ _ _ _ _ _ _ .",
+      "order": 84,
       "correctAnswer": "feelings",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/635302360873643316_Audio.mp3",
+        "alt": "Audio (câu 90)"
+      },
       "metadata": {
         "sourceOrder": 89,
         "printedOrder": 89,
+        "sourceSequence": 90,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q085",
       "type": "single_choice",
-      "order": 85,
-      "points": 1,
       "prompt": "Choose the word that has the underlined part pronounced differently:",
+      "points": 1,
+      "order": 85,
       "options": [
         {
           "id": "a",
@@ -1854,15 +2007,16 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 90,
-        "printedOrder": 90
+        "printedOrder": 90,
+        "sourceSequence": 91
       }
     },
     {
       "id": "ioe-de-22-q086",
       "type": "single_choice",
-      "order": 86,
-      "points": 1,
       "prompt": "Could you tell me … to get to the post office?",
+      "points": 1,
+      "order": 86,
       "options": [
         {
           "id": "a",
@@ -1884,51 +2038,55 @@
       "correctAnswer": "a",
       "metadata": {
         "sourceOrder": 91,
-        "printedOrder": 91
+        "printedOrder": 91,
+        "sourceSequence": 92
       }
     },
     {
       "id": "ioe-de-22-q087",
       "type": "word_order",
-      "order": 87,
-      "points": 1,
       "prompt": "looking/ friends again./ meeting old/ forward to/ They’re/",
+      "points": 1,
+      "order": 87,
       "correctAnswer": "They’re looking forward to meeting old friends again.",
       "metadata": {
         "sourceOrder": 92,
-        "printedOrder": 92
+        "printedOrder": 92,
+        "sourceSequence": 93
       }
     },
     {
       "id": "ioe-de-22-q088",
       "type": "fill_blank",
-      "order": 88,
-      "points": 1,
       "prompt": "We usually _ _ _ _ a picnic when we have free time.",
+      "points": 1,
+      "order": 88,
       "correctAnswer": "have",
       "metadata": {
         "sourceOrder": 93,
-        "printedOrder": 93
+        "printedOrder": 93,
+        "sourceSequence": 94
       }
     },
     {
       "id": "ioe-de-22-q089",
       "type": "fill_blank",
-      "order": 89,
-      "points": 1,
       "prompt": "Let’s put the coffee table in the middle _ _ the room.",
+      "points": 1,
+      "order": 89,
       "correctAnswer": "of",
       "metadata": {
         "sourceOrder": 94,
-        "printedOrder": 94
+        "printedOrder": 94,
+        "sourceSequence": 95
       }
     },
     {
       "id": "ioe-de-22-q090",
       "type": "single_choice",
-      "order": 90,
-      "points": 1,
       "prompt": "We bought ... as souvenirs for our parents.",
+      "points": 1,
+      "order": 90,
       "options": [
         {
           "id": "a",
@@ -1950,52 +2108,61 @@
       "correctAnswer": "a",
       "metadata": {
         "sourceOrder": 95,
-        "printedOrder": 95
+        "printedOrder": 95,
+        "sourceSequence": 96
       }
     },
     {
       "id": "ioe-de-22-q091",
       "type": "fill_blank",
-      "order": 91,
+      "prompt": "I have a sore throat and _ _ _ _ _ nose.",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: I have a sore throat and _ _ _ _ _ nose.",
+      "order": 91,
       "correctAnswer": "runny",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/636241555798443549_Audio.mp3",
+        "alt": "Audio (câu 97)"
+      },
       "metadata": {
         "sourceOrder": 96,
         "printedOrder": 96,
+        "sourceSequence": 97,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q092",
       "type": "word_order",
-      "order": 92,
-      "points": 1,
       "prompt": "beautiful/ than/ more/ her sister./ Trang looks/",
+      "points": 1,
+      "order": 92,
       "correctAnswer": "Trang looks more beautiful than her sister.",
       "metadata": {
         "sourceOrder": 98,
-        "printedOrder": 98
+        "printedOrder": 98,
+        "sourceSequence": 99
       }
     },
     {
       "id": "ioe-de-22-q093",
       "type": "fill_blank",
-      "order": 93,
-      "points": 1,
       "prompt": "The city has a popu_ _ _ _ _ _ of 2.6 million",
+      "points": 1,
+      "order": 93,
       "correctAnswer": "lation",
       "metadata": {
         "sourceOrder": 99,
-        "printedOrder": 99
+        "printedOrder": 99,
+        "sourceSequence": 100
       }
     },
     {
       "id": "ioe-de-22-q094",
       "type": "single_choice",
-      "order": 94,
-      "points": 1,
       "prompt": "Look ...” has similar meaning to “take care”.",
+      "points": 1,
+      "order": 94,
       "options": [
         {
           "id": "a",
@@ -2017,15 +2184,16 @@
       "correctAnswer": "d",
       "metadata": {
         "sourceOrder": 100,
-        "printedOrder": 100
+        "printedOrder": 100,
+        "sourceSequence": 101
       }
     },
     {
       "id": "ioe-de-22-q095",
       "type": "single_choice",
-      "order": 95,
-      "points": 1,
       "prompt": "...? – Because she studies English very well.",
+      "points": 1,
+      "order": 95,
       "options": [
         {
           "id": "a",
@@ -2047,15 +2215,16 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 101,
-        "printedOrder": 101
+        "printedOrder": 101,
+        "sourceSequence": 102
       }
     },
     {
       "id": "ioe-de-22-q096",
       "type": "single_choice",
-      "order": 96,
-      "points": 1,
       "prompt": "Thank you very much. - ….",
+      "points": 1,
+      "order": 96,
       "options": [
         {
           "id": "a",
@@ -2077,51 +2246,55 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 102,
-        "printedOrder": 102
+        "printedOrder": 102,
+        "sourceSequence": 103
       }
     },
     {
       "id": "ioe-de-22-q097",
       "type": "word_order",
-      "order": 97,
-      "points": 1,
       "prompt": "My sisters/ just sit/ TV/ all evening./ and watch/",
+      "points": 1,
+      "order": 97,
       "correctAnswer": "My sisters just sit and watch TV all evening.",
       "metadata": {
         "sourceOrder": 104,
-        "printedOrder": 104
+        "printedOrder": 104,
+        "sourceSequence": 105
       }
     },
     {
       "id": "ioe-de-22-q098",
       "type": "word_order",
-      "order": 98,
-      "points": 1,
       "prompt": "is the/ interesting/ of the three./ This book/ most/",
+      "points": 1,
+      "order": 98,
       "correctAnswer": "This book is the most interesting of the three.",
       "metadata": {
         "sourceOrder": 105,
-        "printedOrder": 105
+        "printedOrder": 105,
+        "sourceSequence": 106
       }
     },
     {
       "id": "ioe-de-22-q099",
       "type": "fill_blank",
-      "order": 99,
-      "points": 1,
       "prompt": "Jane and Jack stood in _ _ _ _ _ of the mirror and looked at themselves.",
+      "points": 1,
+      "order": 99,
       "correctAnswer": "front",
       "metadata": {
         "sourceOrder": 107,
-        "printedOrder": 107
+        "printedOrder": 107,
+        "sourceSequence": 108
       }
     },
     {
       "id": "ioe-de-22-q100",
       "type": "single_choice",
-      "order": 100,
-      "points": 1,
       "prompt": "Oh, I don’t like pork. - ....",
+      "points": 1,
+      "order": 100,
       "options": [
         {
           "id": "a",
@@ -2143,15 +2316,16 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 108,
-        "printedOrder": 108
+        "printedOrder": 108,
+        "sourceSequence": 109
       }
     },
     {
       "id": "ioe-de-22-q101",
       "type": "single_choice",
-      "order": 101,
+      "prompt": "Listen and tick:",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: Listen and tick:",
+      "order": 101,
       "options": [
         {
           "id": "a",
@@ -2171,30 +2345,37 @@
         }
       ],
       "correctAnswer": "a",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/636199100112342831_Audio.mp3",
+        "alt": "Audio (câu 110)"
+      },
       "metadata": {
         "sourceOrder": 109,
         "printedOrder": 109,
+        "sourceSequence": 110,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q102",
       "type": "word_order",
-      "order": 102,
-      "points": 1,
       "prompt": "They/ are very/ happy to/ join our winter/ activities./",
+      "points": 1,
+      "order": 102,
       "correctAnswer": "They are very happy to join our winter activities.",
       "metadata": {
         "sourceOrder": 110,
-        "printedOrder": 110
+        "printedOrder": 110,
+        "sourceSequence": 111
       }
     },
     {
       "id": "ioe-de-22-q103",
       "type": "single_choice",
-      "order": 103,
-      "points": 1,
       "prompt": "I tried … to him but he still misunderstood.",
+      "points": 1,
+      "order": 103,
       "options": [
         {
           "id": "a",
@@ -2216,39 +2397,42 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 111,
-        "printedOrder": 111
+        "printedOrder": 111,
+        "sourceSequence": 112
       }
     },
     {
       "id": "ioe-de-22-q104",
       "type": "word_order",
-      "order": 104,
-      "points": 1,
       "prompt": "yesterday./ Four of us/ important/ had/ exams/",
+      "points": 1,
+      "order": 104,
       "correctAnswer": "Four of us had important exams yesterday.",
       "metadata": {
         "sourceOrder": 112,
-        "printedOrder": 112
+        "printedOrder": 112,
+        "sourceSequence": 113
       }
     },
     {
       "id": "ioe-de-22-q105",
       "type": "fill_blank",
-      "order": 105,
-      "points": 1,
       "prompt": "She bought some souvenirs _ _ _ _ the shop and so did I.",
+      "points": 1,
+      "order": 105,
       "correctAnswer": "from",
       "metadata": {
         "sourceOrder": 114,
-        "printedOrder": 114
+        "printedOrder": 114,
+        "sourceSequence": 115
       }
     },
     {
       "id": "ioe-de-22-q106",
       "type": "single_choice",
-      "order": 106,
-      "points": 1,
       "prompt": "She has a … ruler.",
+      "points": 1,
+      "order": 106,
       "options": [
         {
           "id": "a",
@@ -2270,52 +2454,61 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 115,
-        "printedOrder": 115
+        "printedOrder": 115,
+        "sourceSequence": 116
       }
     },
     {
       "id": "ioe-de-22-q107",
       "type": "word_order",
-      "order": 107,
-      "points": 1,
       "prompt": "last week./ a wedding/ from my friend/ I received/ invitation/",
+      "points": 1,
+      "order": 107,
       "correctAnswer": "I received a wedding invitation from my friend last week.",
       "metadata": {
         "sourceOrder": 116,
-        "printedOrder": 116
+        "printedOrder": 116,
+        "sourceSequence": 117
       }
     },
     {
       "id": "ioe-de-22-q108",
       "type": "fill_blank",
-      "order": 108,
+      "prompt": "I thought that he might like some candy but my father really doesn’t eat many _ _ _ _ _ _ .",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: I thought that he might like some candy but my father really doesn’t eat many _ _ _ _ _ _ .",
+      "order": 108,
       "correctAnswer": "sweets",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/635211582703834229_Audio.mp3",
+        "alt": "Audio (câu 118)"
+      },
       "metadata": {
         "sourceOrder": 117,
         "printedOrder": 117,
+        "sourceSequence": 118,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q109",
       "type": "fill_blank",
-      "order": 109,
-      "points": 1,
       "prompt": "Yesterday _ _ _ Sunday and I got up very late.",
+      "points": 1,
+      "order": 109,
       "correctAnswer": "was",
       "metadata": {
         "sourceOrder": 118,
-        "printedOrder": 118
+        "printedOrder": 118,
+        "sourceSequence": 119
       }
     },
     {
       "id": "ioe-de-22-q110",
       "type": "single_choice",
-      "order": 110,
-      "points": 1,
       "prompt": "Please don’t … so much noise.",
+      "points": 1,
+      "order": 110,
       "options": [
         {
           "id": "a",
@@ -2337,15 +2530,16 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 119,
-        "printedOrder": 119
+        "printedOrder": 119,
+        "sourceSequence": 120
       }
     },
     {
       "id": "ioe-de-22-q111",
       "type": "single_choice",
-      "order": 111,
-      "points": 1,
       "prompt": "What ... you do the last time you ... a bad toothache?",
+      "points": 1,
+      "order": 111,
       "options": [
         {
           "id": "a",
@@ -2367,15 +2561,16 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 120,
-        "printedOrder": 120
+        "printedOrder": 120,
+        "sourceSequence": 121
       }
     },
     {
       "id": "ioe-de-22-q112",
       "type": "single_choice",
-      "order": 112,
+      "prompt": "Where are they going?",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: Where are they going?",
+      "order": 112,
       "options": [
         {
           "id": "a",
@@ -2395,42 +2590,50 @@
         }
       ],
       "correctAnswer": "b",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/635302339943242554_Audio.mp3",
+        "alt": "Audio (câu 122)"
+      },
       "metadata": {
         "sourceOrder": 121,
         "printedOrder": 121,
+        "sourceSequence": 122,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q113",
       "type": "word_order",
-      "order": 113,
-      "points": 1,
       "prompt": "more or/ fewer vacations/ Does your/ than you?/ sister have/",
+      "points": 1,
+      "order": 113,
       "correctAnswer": "Does your sister have more or fewer vacations than you?",
       "metadata": {
         "sourceOrder": 122,
-        "printedOrder": 122
+        "printedOrder": 122,
+        "sourceSequence": 123
       }
     },
     {
       "id": "ioe-de-22-q114",
       "type": "word_order",
-      "order": 114,
-      "points": 1,
       "prompt": "after/ this one./ any buses/ There/ aren’t/",
+      "points": 1,
+      "order": 114,
       "correctAnswer": "There aren’t any buses after this one.",
       "metadata": {
         "sourceOrder": 123,
-        "printedOrder": 123
+        "printedOrder": 123,
+        "sourceSequence": 124
       }
     },
     {
       "id": "ioe-de-22-q115",
       "type": "single_choice",
-      "order": 115,
-      "points": 1,
       "prompt": "In big cities, an apartment is suitable ... small family.",
+      "points": 1,
+      "order": 115,
       "options": [
         {
           "id": "a",
@@ -2452,51 +2655,55 @@
       "correctAnswer": "d",
       "metadata": {
         "sourceOrder": 124,
-        "printedOrder": 124
+        "printedOrder": 124,
+        "sourceSequence": 125
       }
     },
     {
       "id": "ioe-de-22-q116",
       "type": "word_order",
-      "order": 116,
-      "points": 1,
       "prompt": "It takes her/ two hours/ her homework./ each day/ to do/",
+      "points": 1,
+      "order": 116,
       "correctAnswer": "It takes her two hours each day to do her homework.",
       "metadata": {
         "sourceOrder": 125,
-        "printedOrder": 125
+        "printedOrder": 125,
+        "sourceSequence": 126
       }
     },
     {
       "id": "ioe-de-22-q117",
       "type": "word_order",
-      "order": 117,
-      "points": 1,
       "prompt": "call/ Could you/ me back?/ to/ ask him/",
+      "points": 1,
+      "order": 117,
       "correctAnswer": "Could you ask him to call me back?",
       "metadata": {
         "sourceOrder": 126,
-        "printedOrder": 126
+        "printedOrder": 126,
+        "sourceSequence": 127
       }
     },
     {
       "id": "ioe-de-22-q118",
       "type": "fill_blank",
-      "order": 118,
-      "points": 1,
       "prompt": "Paul Anka both plays the piano _ _ _ composes music.",
+      "points": 1,
+      "order": 118,
       "correctAnswer": "and",
       "metadata": {
         "sourceOrder": 127,
-        "printedOrder": 127
+        "printedOrder": 127,
+        "sourceSequence": 128
       }
     },
     {
       "id": "ioe-de-22-q119",
       "type": "single_choice",
-      "order": 119,
-      "points": 1,
       "prompt": "I often ... my friends in front of the school gate.",
+      "points": 1,
+      "order": 119,
       "options": [
         {
           "id": "a",
@@ -2518,76 +2725,87 @@
       "correctAnswer": "d",
       "metadata": {
         "sourceOrder": 128,
-        "printedOrder": 128
+        "printedOrder": 128,
+        "sourceSequence": 129
       }
     },
     {
       "id": "ioe-de-22-q120",
       "type": "fill_blank",
-      "order": 120,
-      "points": 1,
       "prompt": "She lives in a house with a lot of _ _ _ _ _ _ _ in front of it.",
+      "points": 1,
+      "order": 120,
       "correctAnswer": "flowers",
+      "media": {
+        "type": "image",
+        "url": "/ioe-media/images/image2.jpeg",
+        "alt": "Minh họa câu 130"
+      },
       "metadata": {
         "sourceOrder": 129,
         "printedOrder": 129,
+        "sourceSequence": 130,
         "requiresImage": true
       }
     },
     {
       "id": "ioe-de-22-q121",
       "type": "fill_blank",
-      "order": 121,
-      "points": 1,
       "prompt": "A _ _ _ _ _ bor is a person who lives near your house.",
+      "points": 1,
+      "order": 121,
       "correctAnswer": "neigh",
       "metadata": {
         "sourceOrder": 130,
-        "printedOrder": 130
+        "printedOrder": 130,
+        "sourceSequence": 131
       }
     },
     {
       "id": "ioe-de-22-q122",
       "type": "word_order",
-      "order": 122,
-      "points": 1,
       "prompt": "and mountains/ in our country./ a lot of/ rivers/ There are/",
+      "points": 1,
+      "order": 122,
       "correctAnswer": "There are a lot of rivers and mountains in our country.",
       "metadata": {
         "sourceOrder": 132,
-        "printedOrder": 132
+        "printedOrder": 132,
+        "sourceSequence": 133
       }
     },
     {
       "id": "ioe-de-22-q123",
       "type": "fill_blank",
-      "order": 123,
-      "points": 1,
       "prompt": "I have a bad cold. I keep snee_ _ _ _ .",
+      "points": 1,
+      "order": 123,
       "correctAnswer": "zing",
       "metadata": {
         "sourceOrder": 133,
-        "printedOrder": 133
+        "printedOrder": 133,
+        "sourceSequence": 134
       }
     },
     {
       "id": "ioe-de-22-q124",
       "type": "fill_blank",
-      "order": 124,
-      "points": 1,
       "prompt": "Jane is a friend _ _ mine.",
+      "points": 1,
+      "order": 124,
       "correctAnswer": "of",
       "metadata": {
         "sourceOrder": 134,
-        "printedOrder": 134
+        "printedOrder": 134,
+        "sourceSequence": 135
       }
     },
     {
       "id": "ioe-de-22-q125",
       "type": "single_choice",
-      "order": 125,
-      "points": 1,
       "prompt": "We watch movies and cartoons on ....",
+      "points": 1,
+      "order": 125,
       "options": [
         {
           "id": "a",
@@ -2609,27 +2827,29 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 135,
-        "printedOrder": 135
+        "printedOrder": 135,
+        "sourceSequence": 136
       }
     },
     {
       "id": "ioe-de-22-q126",
       "type": "fill_blank",
-      "order": 126,
-      "points": 1,
       "prompt": "She looked at my teeth and told me _ _ _ to worry.",
+      "points": 1,
+      "order": 126,
       "correctAnswer": "not",
       "metadata": {
         "sourceOrder": 136,
-        "printedOrder": 136
+        "printedOrder": 136,
+        "sourceSequence": 137
       }
     },
     {
       "id": "ioe-de-22-q127",
       "type": "single_choice",
-      "order": 127,
-      "points": 1,
       "prompt": "It rained ... last week and I couldn’t go out.",
+      "points": 1,
+      "order": 127,
       "options": [
         {
           "id": "a",
@@ -2651,15 +2871,16 @@
       "correctAnswer": "a",
       "metadata": {
         "sourceOrder": 137,
-        "printedOrder": 137
+        "printedOrder": 137,
+        "sourceSequence": 138
       }
     },
     {
       "id": "ioe-de-22-q128",
       "type": "single_choice",
-      "order": 128,
-      "points": 1,
       "prompt": "The word “destination” has ... syllables.",
+      "points": 1,
+      "order": 128,
       "options": [
         {
           "id": "a",
@@ -2681,15 +2902,16 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 138,
-        "printedOrder": 138
+        "printedOrder": 138,
+        "sourceSequence": 139
       }
     },
     {
       "id": "ioe-de-22-q129",
       "type": "single_choice",
-      "order": 129,
+      "prompt": "What was he doing when he heard a shout? - ....",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: What was he doing when he heard a shout? - ....",
+      "order": 129,
       "options": [
         {
           "id": "a",
@@ -2709,79 +2931,95 @@
         }
       ],
       "correctAnswer": "b",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/635302347187739278_Audio.mp3",
+        "alt": "Audio (câu 140)"
+      },
       "metadata": {
         "sourceOrder": 139,
         "printedOrder": 139,
+        "sourceSequence": 140,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q130",
       "type": "word_order",
-      "order": 130,
-      "points": 1,
       "prompt": "these pens/ yours?/ rulers/ and/ Are/",
+      "points": 1,
+      "order": 130,
       "correctAnswer": "Are these pens and rulers yours?",
       "metadata": {
         "sourceOrder": 140,
-        "printedOrder": 140
+        "printedOrder": 140,
+        "sourceSequence": 141
       }
     },
     {
       "id": "ioe-de-22-q131",
       "type": "fill_blank",
-      "order": 131,
-      "points": 1,
       "prompt": "Finally, I’m going to fly home _ _ _ _ lots of Vietnamese souvenirs.",
+      "points": 1,
+      "order": 131,
       "correctAnswer": "with",
       "metadata": {
         "sourceOrder": 141,
-        "printedOrder": 141
+        "printedOrder": 141,
+        "sourceSequence": 142
       }
     },
     {
       "id": "ioe-de-22-q132",
       "type": "fill_blank",
-      "order": 132,
-      "points": 1,
       "prompt": "Lan: Why didn’t you come to Nam’s b_ _ _ _ _ _ _ party yesterday? - Quang: I had a headache.",
+      "points": 1,
+      "order": 132,
       "correctAnswer": "irthday",
+      "media": {
+        "type": "image",
+        "url": "/ioe-media/images/image1.jpeg",
+        "alt": "Minh họa câu 143"
+      },
       "metadata": {
         "sourceOrder": 142,
         "printedOrder": 142,
+        "sourceSequence": 143,
         "requiresImage": true
       }
     },
     {
       "id": "ioe-de-22-q133",
       "type": "word_order",
-      "order": 133,
-      "points": 1,
       "prompt": "children./ They were/ with their/ on the beach/ three/",
+      "points": 1,
+      "order": 133,
       "correctAnswer": "They were on the beach with their three children.",
       "metadata": {
         "sourceOrder": 143,
-        "printedOrder": 143
+        "printedOrder": 143,
+        "sourceSequence": 144
       }
     },
     {
       "id": "ioe-de-22-q134",
       "type": "word_order",
-      "order": 134,
-      "points": 1,
       "prompt": "a photo of/ This is/ my sister/ her cat./ with/",
+      "points": 1,
+      "order": 134,
       "correctAnswer": "This is a photo of my sister with her cat.",
       "metadata": {
         "sourceOrder": 144,
-        "printedOrder": 144
+        "printedOrder": 144,
+        "sourceSequence": 145
       }
     },
     {
       "id": "ioe-de-22-q135",
       "type": "single_choice",
-      "order": 135,
-      "points": 1,
       "prompt": "Choose the word which has different stress pattern:",
+      "points": 1,
+      "order": 135,
       "options": [
         {
           "id": "a",
@@ -2803,52 +3041,61 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 145,
-        "printedOrder": 145
+        "printedOrder": 145,
+        "sourceSequence": 146
       }
     },
     {
       "id": "ioe-de-22-q136",
       "type": "fill_blank",
-      "order": 136,
-      "points": 1,
       "prompt": "What _ _ _ _ do your family often go to bed everyday? – 11pm.",
+      "points": 1,
+      "order": 136,
       "correctAnswer": "time",
       "metadata": {
         "sourceOrder": 146,
-        "printedOrder": 146
+        "printedOrder": 146,
+        "sourceSequence": 147
       }
     },
     {
       "id": "ioe-de-22-q137",
       "type": "word_order",
-      "order": 137,
-      "points": 1,
       "prompt": "hobby is/ carving/ Her/ mother’s/ eggshells./",
+      "points": 1,
+      "order": 137,
       "correctAnswer": "Her mother’s hobby is carving eggshells.",
       "metadata": {
         "sourceOrder": 147,
-        "printedOrder": 147
+        "printedOrder": 147,
+        "sourceSequence": 148
       }
     },
     {
       "id": "ioe-de-22-q138",
       "type": "fill_blank",
-      "order": 138,
-      "points": 1,
       "prompt": "We ate a delicious dinner at a Mexican _ _ _ _ _ _ _ _ _ _ last Wednesday.",
+      "points": 1,
+      "order": 138,
       "correctAnswer": "restaurant",
+      "media": {
+        "type": "image",
+        "url": "/ioe-media/images/image6.jpeg",
+        "alt": "Minh họa câu 149"
+      },
       "metadata": {
         "sourceOrder": 148,
         "printedOrder": 148,
+        "sourceSequence": 149,
         "requiresImage": true
       }
     },
     {
       "id": "ioe-de-22-q139",
       "type": "single_choice",
-      "order": 139,
-      "points": 1,
       "prompt": "Peter sometimes helps me … my homework.",
+      "points": 1,
+      "order": 139,
       "options": [
         {
           "id": "a",
@@ -2870,27 +3117,29 @@
       "correctAnswer": "d",
       "metadata": {
         "sourceOrder": 149,
-        "printedOrder": 149
+        "printedOrder": 149,
+        "sourceSequence": 150
       }
     },
     {
       "id": "ioe-de-22-q140",
       "type": "word_order",
-      "order": 140,
-      "points": 1,
       "prompt": "you go/ much before/ eat too/ to bed./ You shouldn’t/",
+      "points": 1,
+      "order": 140,
       "correctAnswer": "You shouldn’t eat too much before you go to bed.",
       "metadata": {
         "sourceOrder": 150,
-        "printedOrder": 150
+        "printedOrder": 150,
+        "sourceSequence": 151
       }
     },
     {
       "id": "ioe-de-22-q141",
       "type": "single_choice",
-      "order": 141,
-      "points": 1,
       "prompt": "Please drop … for a cup of coffee whenever you are passing.",
+      "points": 1,
+      "order": 141,
       "options": [
         {
           "id": "a",
@@ -2912,15 +3161,16 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 151,
-        "printedOrder": 151
+        "printedOrder": 151,
+        "sourceSequence": 152
       }
     },
     {
       "id": "ioe-de-22-q142",
       "type": "single_choice",
-      "order": 142,
-      "points": 1,
       "prompt": "… lucky he is!",
+      "points": 1,
+      "order": 142,
       "options": [
         {
           "id": "a",
@@ -2942,15 +3192,16 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 152,
-        "printedOrder": 152
+        "printedOrder": 152,
+        "sourceSequence": 153
       }
     },
     {
       "id": "ioe-de-22-q143",
       "type": "single_choice",
-      "order": 143,
-      "points": 1,
       "prompt": "Life on the farm is always a struggle … nature.",
+      "points": 1,
+      "order": 143,
       "options": [
         {
           "id": "a",
@@ -2972,76 +3223,87 @@
       "correctAnswer": "a",
       "metadata": {
         "sourceOrder": 153,
-        "printedOrder": 153
+        "printedOrder": 153,
+        "sourceSequence": 154
       }
     },
     {
       "id": "ioe-de-22-q144",
       "type": "fill_blank",
-      "order": 144,
-      "points": 1,
       "prompt": "Elizabeth likes _ _ _ _ _ _ and painting in her free time.",
+      "points": 1,
+      "order": 144,
       "correctAnswer": "sewing",
+      "media": {
+        "type": "image",
+        "url": "/ioe-media/images/image7.jpeg",
+        "alt": "Minh họa câu 155"
+      },
       "metadata": {
         "sourceOrder": 154,
         "printedOrder": 154,
+        "sourceSequence": 155,
         "requiresImage": true
       }
     },
     {
       "id": "ioe-de-22-q145",
       "type": "fill_blank",
-      "order": 145,
-      "points": 1,
       "prompt": "He often goes out _ _ _ a walk in summer nights.",
+      "points": 1,
+      "order": 145,
       "correctAnswer": "for",
       "metadata": {
         "sourceOrder": 155,
-        "printedOrder": 155
+        "printedOrder": 155,
+        "sourceSequence": 156
       }
     },
     {
       "id": "ioe-de-22-q146",
       "type": "fill_blank",
-      "order": 146,
-      "points": 1,
       "prompt": "Everybody is waiting _ _ _ the president in the hall now.",
+      "points": 1,
+      "order": 146,
       "correctAnswer": "for",
       "metadata": {
         "sourceOrder": 156,
-        "printedOrder": 156
+        "printedOrder": 156,
+        "sourceSequence": 157
       }
     },
     {
       "id": "ioe-de-22-q147",
       "type": "word_order",
-      "order": 147,
-      "points": 1,
       "prompt": "A man/ for you/ left a message/ at the hotel./ called Peter/",
+      "points": 1,
+      "order": 147,
       "correctAnswer": "A man called Peter left a message for you at the hotel.",
       "metadata": {
         "sourceOrder": 157,
-        "printedOrder": 157
+        "printedOrder": 157,
+        "sourceSequence": 158
       }
     },
     {
       "id": "ioe-de-22-q148",
       "type": "word_order",
-      "order": 148,
-      "points": 1,
       "prompt": "water/ a lot/ a day./ He drinks/ of mineral/",
+      "points": 1,
+      "order": 148,
       "correctAnswer": "He drinks a lot of mineral water a day.",
       "metadata": {
         "sourceOrder": 158,
-        "printedOrder": 158
+        "printedOrder": 158,
+        "sourceSequence": 159
       }
     },
     {
       "id": "ioe-de-22-q149",
       "type": "single_choice",
-      "order": 149,
+      "prompt": "What kind of men does she like? - ....",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: What kind of men does she like? - ....",
+      "order": 149,
       "options": [
         {
           "id": "a",
@@ -3061,30 +3323,37 @@
         }
       ],
       "correctAnswer": "a",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/635302333504175244_Audio.mp3",
+        "alt": "Audio (câu 160)"
+      },
       "metadata": {
         "sourceOrder": 159,
         "printedOrder": 159,
+        "sourceSequence": 160,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q150",
       "type": "fill_blank",
-      "order": 150,
-      "points": 1,
       "prompt": "People _ _ all ages can enjoy sport activities.",
+      "points": 1,
+      "order": 150,
       "correctAnswer": "of",
       "metadata": {
         "sourceOrder": 160,
-        "printedOrder": 160
+        "printedOrder": 160,
+        "sourceSequence": 161
       }
     },
     {
       "id": "ioe-de-22-q151",
       "type": "single_choice",
-      "order": 151,
-      "points": 1,
       "prompt": "Mary … in the dance sport club since last year.",
+      "points": 1,
+      "order": 151,
       "options": [
         {
           "id": "a",
@@ -3106,39 +3375,42 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 161,
-        "printedOrder": 161
+        "printedOrder": 161,
+        "sourceSequence": 162
       }
     },
     {
       "id": "ioe-de-22-q152",
       "type": "fill_blank",
-      "order": 152,
-      "points": 1,
       "prompt": "We often have a _ _ _ _ _ _ when the weather is fine.",
+      "points": 1,
+      "order": 152,
       "correctAnswer": "picnic",
       "metadata": {
         "sourceOrder": 162,
-        "printedOrder": 162
+        "printedOrder": 162,
+        "sourceSequence": 163
       }
     },
     {
       "id": "ioe-de-22-q153",
       "type": "fill_blank",
-      "order": 153,
-      "points": 1,
       "prompt": "His father bou_ _ _ him a new schoolbag yesterday.",
+      "points": 1,
+      "order": 153,
       "correctAnswer": "ght",
       "metadata": {
         "sourceOrder": 163,
-        "printedOrder": 163
+        "printedOrder": 163,
+        "sourceSequence": 164
       }
     },
     {
       "id": "ioe-de-22-q154",
       "type": "single_choice",
-      "order": 154,
-      "points": 1,
       "prompt": "Many wild animals are ... danger because of pollution.",
+      "points": 1,
+      "order": 154,
       "options": [
         {
           "id": "a",
@@ -3160,75 +3432,81 @@
       "correctAnswer": "d",
       "metadata": {
         "sourceOrder": 164,
-        "printedOrder": 164
+        "printedOrder": 164,
+        "sourceSequence": 165
       }
     },
     {
       "id": "ioe-de-22-q155",
       "type": "fill_blank",
-      "order": 155,
-      "points": 1,
       "prompt": "A rice paddy is also a _ _ _ _ _ field.",
+      "points": 1,
+      "order": 155,
       "correctAnswer": "paddy",
       "metadata": {
         "sourceOrder": 165,
-        "printedOrder": 165
+        "printedOrder": 165,
+        "sourceSequence": 166
       }
     },
     {
       "id": "ioe-de-22-q156",
       "type": "fill_blank",
-      "order": 156,
-      "points": 1,
       "prompt": "Her father is going to have tea and read the _ _ _ _ _ _ _ _ _ .",
+      "points": 1,
+      "order": 156,
       "correctAnswer": "newspaper",
       "metadata": {
         "sourceOrder": 166,
-        "printedOrder": 166
+        "printedOrder": 166,
+        "sourceSequence": 167
       }
     },
     {
       "id": "ioe-de-22-q157",
       "type": "fill_blank",
-      "order": 157,
-      "points": 1,
       "prompt": "Don’t worry about _ _ , Mom. I can take care of myself.",
+      "points": 1,
+      "order": 157,
       "correctAnswer": "me",
       "metadata": {
         "sourceOrder": 167,
-        "printedOrder": 167
+        "printedOrder": 167,
+        "sourceSequence": 168
       }
     },
     {
       "id": "ioe-de-22-q158",
       "type": "word_order",
-      "order": 158,
-      "points": 1,
       "prompt": "to check/ your/ numbers./ flight/ Remember/",
+      "points": 1,
+      "order": 158,
       "correctAnswer": "Remember to check your flight numbers.",
       "metadata": {
         "sourceOrder": 168,
-        "printedOrder": 168
+        "printedOrder": 168,
+        "sourceSequence": 169
       }
     },
     {
       "id": "ioe-de-22-q159",
       "type": "fill_blank",
-      "order": 159,
-      "points": 1,
       "prompt": "How far is it _ _ _ _ here to your house?",
+      "points": 1,
+      "order": 159,
       "correctAnswer": "from",
       "metadata": {
         "sourceOrder": 169,
-        "printedOrder": 169
+        "printedOrder": 169,
+        "sourceSequence": 170
       }
     },
     {
       "id": "ioe-de-22-q160",
       "type": "single_choice",
-      "order": 160,
-      "points": 1,
       "prompt": "Eating fruits and vegetables are good ... our health.",
+      "points": 1,
+      "order": 160,
       "options": [
         {
           "id": "a",
@@ -3250,15 +3528,16 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 170,
-        "printedOrder": 170
+        "printedOrder": 170,
+        "sourceSequence": 171
       }
     },
     {
       "id": "ioe-de-22-q161",
       "type": "single_choice",
-      "order": 161,
-      "points": 1,
       "prompt": "Let’s go to the lunch room. I’m ….",
+      "points": 1,
+      "order": 161,
       "options": [
         {
           "id": "a",
@@ -3280,27 +3559,29 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 171,
-        "printedOrder": 171
+        "printedOrder": 171,
+        "sourceSequence": 172
       }
     },
     {
       "id": "ioe-de-22-q162",
       "type": "fill_blank",
-      "order": 162,
-      "points": 1,
       "prompt": "Could you give me some cookies? - _ _ _ _ you are.",
+      "points": 1,
+      "order": 162,
       "correctAnswer": "here",
       "metadata": {
         "sourceOrder": 172,
-        "printedOrder": 172
+        "printedOrder": 172,
+        "sourceSequence": 173
       }
     },
     {
       "id": "ioe-de-22-q163",
       "type": "single_choice",
-      "order": 163,
-      "points": 1,
       "prompt": "Unhealthy food can ... you sick.",
+      "points": 1,
+      "order": 163,
       "options": [
         {
           "id": "a",
@@ -3322,39 +3603,42 @@
       "correctAnswer": "d",
       "metadata": {
         "sourceOrder": 173,
-        "printedOrder": 173
+        "printedOrder": 173,
+        "sourceSequence": 174
       }
     },
     {
       "id": "ioe-de-22-q164",
       "type": "fill_blank",
-      "order": 164,
-      "points": 1,
       "prompt": "He talks a _ _ _ about his new car.",
+      "points": 1,
+      "order": 164,
       "correctAnswer": "lot",
       "metadata": {
         "sourceOrder": 174,
-        "printedOrder": 174
+        "printedOrder": 174,
+        "sourceSequence": 175
       }
     },
     {
       "id": "ioe-de-22-q165",
       "type": "fill_blank",
-      "order": 165,
-      "points": 1,
       "prompt": "Another word for “fall” is “au_ _ _ _ ”.",
+      "points": 1,
+      "order": 165,
       "correctAnswer": "tumn",
       "metadata": {
         "sourceOrder": 175,
-        "printedOrder": 175
+        "printedOrder": 175,
+        "sourceSequence": 176
       }
     },
     {
       "id": "ioe-de-22-q166",
       "type": "single_choice",
-      "order": 166,
-      "points": 1,
       "prompt": "She added a little soy sauce ... the dish.",
+      "points": 1,
+      "order": 166,
       "options": [
         {
           "id": "a",
@@ -3376,52 +3660,61 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 176,
-        "printedOrder": 176
+        "printedOrder": 176,
+        "sourceSequence": 177
       }
     },
     {
       "id": "ioe-de-22-q167",
       "type": "fill_blank",
-      "order": 167,
-      "points": 1,
       "prompt": "Please prepare, I will p_ _ _ you up at 8 a.m.",
+      "points": 1,
+      "order": 167,
       "correctAnswer": "ick",
       "metadata": {
         "sourceOrder": 177,
-        "printedOrder": 177
+        "printedOrder": 177,
+        "sourceSequence": 178
       }
     },
     {
       "id": "ioe-de-22-q168",
       "type": "fill_blank",
-      "order": 168,
-      "points": 1,
       "prompt": "This is my new k_ _ _ _ _ , Dan. She is so lovely.",
+      "points": 1,
+      "order": 168,
       "correctAnswer": "itten",
+      "media": {
+        "type": "image",
+        "url": "/ioe-media/images/image8.png",
+        "alt": "Minh họa câu 179"
+      },
       "metadata": {
         "sourceOrder": 178,
         "printedOrder": 178,
+        "sourceSequence": 179,
         "requiresImage": true
       }
     },
     {
       "id": "ioe-de-22-q169",
       "type": "word_order",
-      "order": 169,
-      "points": 1,
       "prompt": "you/ are/ get married?/ When/ going to/",
+      "points": 1,
+      "order": 169,
       "correctAnswer": "When are you going to get married?",
       "metadata": {
         "sourceOrder": 179,
-        "printedOrder": 179
+        "printedOrder": 179,
+        "sourceSequence": 180
       }
     },
     {
       "id": "ioe-de-22-q170",
       "type": "single_choice",
-      "order": 170,
-      "points": 1,
       "prompt": "Does this drug have any unpleasant …?",
+      "points": 1,
+      "order": 170,
       "options": [
         {
           "id": "a",
@@ -3443,63 +3736,68 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 180,
-        "printedOrder": 180
+        "printedOrder": 180,
+        "sourceSequence": 181
       }
     },
     {
       "id": "ioe-de-22-q171",
       "type": "fill_blank",
-      "order": 171,
-      "points": 1,
       "prompt": "Is he interested in collecting old _ _ _ _ _ _ and coins?",
+      "points": 1,
+      "order": 171,
       "correctAnswer": "stamps",
       "metadata": {
         "sourceOrder": 181,
-        "printedOrder": 181
+        "printedOrder": 181,
+        "sourceSequence": 182
       }
     },
     {
       "id": "ioe-de-22-q172",
       "type": "fill_blank",
-      "order": 172,
-      "points": 1,
       "prompt": "My sister doesn’t play tennis as well as she _ _ _ last year.",
+      "points": 1,
+      "order": 172,
       "correctAnswer": "did",
       "metadata": {
         "sourceOrder": 182,
-        "printedOrder": 182
+        "printedOrder": 182,
+        "sourceSequence": 183
       }
     },
     {
       "id": "ioe-de-22-q173",
       "type": "word_order",
-      "order": 173,
-      "points": 1,
       "prompt": "We don’t like/ days in/ February in the north/ humid/ of Viet Nam./",
+      "points": 1,
+      "order": 173,
       "correctAnswer": "We don’t like humid days in February in the north of Viet Nam.",
       "metadata": {
         "sourceOrder": 184,
-        "printedOrder": 184
+        "printedOrder": 184,
+        "sourceSequence": 185
       }
     },
     {
       "id": "ioe-de-22-q174",
       "type": "word_order",
-      "order": 174,
-      "points": 1,
       "prompt": "Jennifer’s/ will be/ birthday./ 9th/ Tomorrow/",
+      "points": 1,
+      "order": 174,
       "correctAnswer": "Tomorrow will be Jennifer’s 9th birthday.",
       "metadata": {
         "sourceOrder": 185,
-        "printedOrder": 185
+        "printedOrder": 185,
+        "sourceSequence": 186
       }
     },
     {
       "id": "ioe-de-22-q175",
       "type": "single_choice",
-      "order": 175,
+      "prompt": "What doesn’t he have? - ....",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: What doesn’t he have? - ....",
+      "order": 175,
       "options": [
         {
           "id": "a",
@@ -3519,42 +3817,50 @@
         }
       ],
       "correctAnswer": "d",
+      "media": {
+        "type": "audio",
+        "url": "/ioe-media/audio/636241440003685765_Audio.mp3",
+        "alt": "Audio (câu 187)"
+      },
       "metadata": {
         "sourceOrder": 186,
         "printedOrder": 186,
+        "sourceSequence": 187,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q176",
       "type": "word_order",
-      "order": 176,
-      "points": 1,
       "prompt": "at night./ The city/ I live in/ is/ very noisy/",
+      "points": 1,
+      "order": 176,
       "correctAnswer": "The city I live in is very noisy at night.",
       "metadata": {
         "sourceOrder": 187,
-        "printedOrder": 187
+        "printedOrder": 187,
+        "sourceSequence": 188
       }
     },
     {
       "id": "ioe-de-22-q177",
       "type": "word_order",
-      "order": 177,
-      "points": 1,
       "prompt": "your vacation/ abroad for/ Are you/ next year?/ going/",
+      "points": 1,
+      "order": 177,
       "correctAnswer": "Are you going abroad for your vacation next year?",
       "metadata": {
         "sourceOrder": 188,
-        "printedOrder": 188
+        "printedOrder": 188,
+        "sourceSequence": 189
       }
     },
     {
       "id": "ioe-de-22-q178",
       "type": "single_choice",
-      "order": 178,
-      "points": 1,
       "prompt": "Choose the word that has the underlined part pronounced differently:",
+      "points": 1,
+      "order": 178,
       "options": [
         {
           "id": "a",
@@ -3576,15 +3882,16 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 189,
-        "printedOrder": 189
+        "printedOrder": 189,
+        "sourceSequence": 190
       }
     },
     {
       "id": "ioe-de-22-q179",
       "type": "single_choice",
-      "order": 179,
-      "points": 1,
       "prompt": "Bill ... his bike to school everyday.",
+      "points": 1,
+      "order": 179,
       "options": [
         {
           "id": "a",
@@ -3606,15 +3913,16 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 190,
-        "printedOrder": 190
+        "printedOrder": 190,
+        "sourceSequence": 191
       }
     },
     {
       "id": "ioe-de-22-q180",
       "type": "single_choice",
-      "order": 180,
-      "points": 1,
       "prompt": "Can you give me … meat?",
+      "points": 1,
+      "order": 180,
       "options": [
         {
           "id": "a",
@@ -3636,27 +3944,29 @@
       "correctAnswer": "c",
       "metadata": {
         "sourceOrder": 191,
-        "printedOrder": 191
+        "printedOrder": 191,
+        "sourceSequence": 192
       }
     },
     {
       "id": "ioe-de-22-q181",
       "type": "fill_blank",
-      "order": 181,
-      "points": 1,
       "prompt": "How _ _ _ _ _ are you? – I’m 42 kilos.",
+      "points": 1,
+      "order": 181,
       "correctAnswer": "heavy",
       "metadata": {
         "sourceOrder": 192,
-        "printedOrder": 192
+        "printedOrder": 192,
+        "sourceSequence": 193
       }
     },
     {
       "id": "ioe-de-22-q182",
       "type": "single_choice",
-      "order": 182,
+      "prompt": "What could man do after the invention of breathing equipment? - ....",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: What could man do after the invention of breathing equipment? - ....",
+      "order": 182,
       "options": [
         {
           "id": "a",
@@ -3679,15 +3989,16 @@
       "metadata": {
         "sourceOrder": 193,
         "printedOrder": 193,
+        "sourceSequence": 194,
         "requiresAudio": true
       }
     },
     {
       "id": "ioe-de-22-q183",
       "type": "single_choice",
-      "order": 183,
-      "points": 1,
       "prompt": "The weather is warm enough for us ….",
+      "points": 1,
+      "order": 183,
       "options": [
         {
           "id": "a",
@@ -3709,51 +4020,55 @@
       "correctAnswer": "a",
       "metadata": {
         "sourceOrder": 194,
-        "printedOrder": 194
+        "printedOrder": 194,
+        "sourceSequence": 195
       }
     },
     {
       "id": "ioe-de-22-q184",
       "type": "fill_blank",
-      "order": 184,
-      "points": 1,
       "prompt": "Mr. Ronald is very strong. He’s a weightlif_ _ _ .",
+      "points": 1,
+      "order": 184,
       "correctAnswer": "ter",
       "metadata": {
         "sourceOrder": 195,
-        "printedOrder": 195
+        "printedOrder": 195,
+        "sourceSequence": 196
       }
     },
     {
       "id": "ioe-de-22-q185",
       "type": "word_order",
-      "order": 185,
-      "points": 1,
       "prompt": "in winter./ In my/ country, it/ often snows/ a lot/",
+      "points": 1,
+      "order": 185,
       "correctAnswer": "In my country, it often snows a lot in winter.",
       "metadata": {
         "sourceOrder": 196,
-        "printedOrder": 196
+        "printedOrder": 196,
+        "sourceSequence": 197
       }
     },
     {
       "id": "ioe-de-22-q186",
       "type": "word_order",
-      "order": 186,
-      "points": 1,
       "prompt": "on his parents’/ farm/ John/ last month?/ Was/",
+      "points": 1,
+      "order": 186,
       "correctAnswer": "Was John on his parents’ farm last month?",
       "metadata": {
         "sourceOrder": 197,
-        "printedOrder": 197
+        "printedOrder": 197,
+        "sourceSequence": 198
       }
     },
     {
       "id": "ioe-de-22-q187",
       "type": "single_choice",
-      "order": 187,
-      "points": 1,
       "prompt": "When’s your birthday? – ....",
+      "points": 1,
+      "order": 187,
       "options": [
         {
           "id": "a",
@@ -3775,15 +4090,16 @@
       "correctAnswer": "b",
       "metadata": {
         "sourceOrder": 198,
-        "printedOrder": 198
+        "printedOrder": 198,
+        "sourceSequence": 199
       }
     },
     {
       "id": "ioe-de-22-q188",
       "type": "single_choice",
-      "order": 188,
-      "points": 1,
       "prompt": "How often do you jog? – ....",
+      "points": 1,
+      "order": 188,
       "options": [
         {
           "id": "a",
@@ -3805,21 +4121,24 @@
       "correctAnswer": "a",
       "metadata": {
         "sourceOrder": 199,
-        "printedOrder": 199
+        "printedOrder": 199,
+        "sourceSequence": 200
       }
     },
     {
       "id": "ioe-de-22-q189",
       "type": "fill_blank",
-      "order": 189,
+      "prompt": "It is exciting to take an _ _ _ _ _ _ _ _ ride. ĐỀ IOE K7 2025 - 2026",
       "points": 1,
-      "prompt": "Nhấn giữ Ctrl và bấm chuột để nghe: It is exciting to take an _ _ _ _ _ _ _ _ ride. ĐỀ IOE K7 2025 - 2026",
+      "order": 189,
       "correctAnswer": "airplane CÂU HỎI ĐÁP ÁN",
       "metadata": {
         "sourceOrder": 200,
         "printedOrder": 200,
+        "sourceSequence": 201,
         "requiresAudio": true
       }
     }
-  ]
+  ],
+  "status": "published"
 }

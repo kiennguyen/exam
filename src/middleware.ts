@@ -5,6 +5,7 @@ import { ACCESS_COOKIE_NAME, ACCESS_GATE_PATH } from "@/lib/access/constants";
 
 const PUBLIC_PREFIXES = [
   "/_next/",
+  "/ioe-media/",
   "/favicon.ico",
   "/robots.txt",
   "/sitemap.xml",
