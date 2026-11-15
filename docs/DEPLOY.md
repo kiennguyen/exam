@@ -124,9 +124,9 @@ Nếu **không** bật Git integration của Vercel, dùng [`.github/workflows/d
 | `VERCEL_ORG_ID` | Chạy `npx vercel link` trong repo, hoặc Team/Project API |
 | `VERCEL_PROJECT_ID` | Project → Settings → General |
 
-Workflow deploy khi push `main` (bỏ qua commit chỉ sửa `*.md` hoặc `docs/**`).
+Workflow **manual** (`Actions → Deploy Vercel → Run workflow`) sau khi đã đủ secrets — tránh báo đỏ khi chưa cấu hình token.
 
-**Khuyến nghị:** Chỉ cần **Import GitHub project trên Vercel** — Vercel tự deploy mỗi push `main`, không bắt buộc workflow.
+**Khuyến nghị:** **Import GitHub project trên Vercel** — Vercel tự deploy mỗi push `main`; không cần workflow nếu Git integration đã bật.
 
 ---
 

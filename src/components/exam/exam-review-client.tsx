@@ -1,10 +1,15 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { GradingResult, QuestionResult } from "@/lib/exam/types";
-import type { PublicExam } from "@/lib/exam/types";
+import type {
+  GradingResult,
+  PublicExam,
+  PublicQuestion,
+  QuestionResult,
+} from "@/lib/exam/types";
 import { Button } from "@/components/ui/button";
 import { ButtonLink } from "@/components/ui/button";
+import { QuestionMedia } from "./question-media";
 
 type Filter = "all" | "incorrect" | "unanswered" | "flagged";
 
@@ -90,6 +95,7 @@ export function ExamReviewClient({
       <ReviewCard
         index={questionMap.get(current.questionId)?.order ?? index + 1}
         item={current}
+        question={publicQ}
         prompt={publicQ?.prompt ?? current.questionId}
         options={publicQ?.options}
       />
@@ -132,11 +138,13 @@ export function ExamReviewClient({
 function ReviewCard({
   index,
   item,
+  question,
   prompt,
   options,
 }: {
   index: number;
   item: QuestionResult;
+  question?: PublicQuestion;
   prompt: string;
   options?: { id: string; label: string }[];
 }) {
@@ -175,6 +183,7 @@ function ReviewCard({
         )}
       </div>
       <h2 className="text-lg font-semibold text-slate-900">{prompt}</h2>
+      {question && <QuestionMedia question={question} />}
 
       {options && (
         <ul className="mt-4 space-y-2 text-sm text-slate-700">

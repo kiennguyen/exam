@@ -5,7 +5,7 @@
  */
 import fs from "fs/promises";
 import path from "path";
-import type { Exam, Question } from "../../src/lib/exam/types";
+import type { Exam } from "../../src/lib/exam/types";
 import { examSchema } from "../../src/lib/exam/schema";
 import {
   ANSWERS_DIR,

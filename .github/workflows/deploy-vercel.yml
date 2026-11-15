@@ -2,19 +2,24 @@
 # Hướng dẫn: docs/DEPLOY.md
 name: Deploy Vercel
 
+# Push main → Vercel Git integration deploys automatically (see docs/DEPLOY.md).
+# Chạy workflow này thủ công khi đã set VERCEL_* secrets trên GitHub.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths-ignore:
-      - "**/*.md"
-      - "docs/**"
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Require Vercel secrets
+        env:
+          HAS_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          if [ -z "$HAS_TOKEN" ]; then
+            echo "::error::Thiếu secret VERCEL_TOKEN (và VERCEL_ORG_ID, VERCEL_PROJECT_ID). Dùng Vercel Git deploy hoặc thêm secrets."
+            exit 1
+          fi
       - uses: amondnet/vercel-action@v25
         id: deploy
         with:

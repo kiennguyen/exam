@@ -82,27 +82,6 @@ function splitExamsWithOffsets(
   return out;
 }
 
-function splitQuestions(examBody: string): Array<{ order: number; start: number; end: number }> {
-  const items: Array<{ order: number; start: number; end: number }> = [];
-  const re = /(\d{1,3})\.\s/g;
-  let match: RegExpExecArray | null;
-  const hits: Array<{ order: number; index: number }> = [];
-
-  while ((match = re.exec(examBody)) !== null) {
-    const order = Number(match[1]);
-    if (order < 1 || order > 250) continue;
-    hits.push({ order, index: match.index });
-  }
-
-  for (let i = 0; i < hits.length; i++) {
-    const start = hits[i].index;
-    const end = i + 1 < hits.length ? hits[i + 1].index : examBody.length;
-    items.push({ order: hits[i].order, start, end });
-  }
-
-  return items;
-}
-
 function audioFileNameFromUrl(url: string): string {
   const base = url.split("/").pop() ?? "audio.mp3";
   return base.replace(/[^\w.\-]/g, "_");
@@ -116,20 +95,6 @@ function resolveAudioUrl(
   if (!target || !/^https?:/i.test(target)) return null;
   if (!/_Audio\.mp3/i.test(target)) return null;
   return target;
-}
-
-function findAudioInRange(
-  absQStart: number,
-  absQEnd: number,
-  hyperlinkAt: Array<{ index: number; rId: string }>,
-  rels: Map<string, string>
-): string | null {
-  for (const h of hyperlinkAt) {
-    if (h.index < absQStart || h.index >= absQEnd) continue;
-    const url = resolveAudioUrl(rels, h.rId);
-    if (url) return url;
-  }
-  return null;
 }
 
 async function loadImportExam(slug: string) {
@@ -177,9 +142,6 @@ async function main(): Promise<void> {
 
     for (const exam of exams) {
       const slug = `de-${String(exam.examNumber).padStart(2, "0")}`;
-      const body = exam.body;
-      const bodyStartInFlat = flat.text.indexOf(body, exam.start);
-      const anchor = bodyStartInFlat >= 0 ? bodyStartInFlat : exam.start;
       byExam[slug] = {};
 
       const imp = await loadImportExam(slug);

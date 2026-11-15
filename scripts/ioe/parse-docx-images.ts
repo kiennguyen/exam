@@ -100,20 +100,6 @@ function resolveEmbeddedImage(
   return target;
 }
 
-function findImageInRange(
-  absQStart: number,
-  absQEnd: number,
-  imageAt: Array<{ index: number; rId: string }>,
-  rels: Map<string, string>
-): string | null {
-  for (const img of imageAt) {
-    if (img.index < absQStart || img.index >= absQEnd) continue;
-    const t = resolveEmbeddedImage(rels, img.rId);
-    if (t) return t;
-  }
-  return null;
-}
-
 function fileNameFromTarget(target: string): string {
   return target.replace(/^media\//i, "").replace(/[^\w.\-]/g, "_");
 }
