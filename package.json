@@ -28,6 +28,7 @@
     "ioe:apply-images": "tsx scripts/ioe/apply-images-to-exams.ts",
     "ioe:images-all": "npm run ioe:parse-images && npm run ioe:copy-images && npm run ioe:patch-sequence && npm run ioe:apply-images",
     "ioe:media-all": "npm run ioe:audio-all && npm run ioe:images-all",
+    "sync:vaijob-release": "git push https://github.com/vaijob/exam.git main:release/exam-media",
     "ioe:audit-audio": "tsx scripts/ioe/audit-audio-gaps.ts",
     "ioe:media-report": "tsx scripts/ioe/report-media-questions.ts",
     "ioe:sync-collection": "tsx scripts/ioe/sync-collection.ts",

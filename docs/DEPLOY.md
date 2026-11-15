@@ -100,6 +100,8 @@ Sau khi thêm `NEXT_PUBLIC_SITE_URL`, **Redeploy** để sitemap/OG dùng URL đ
 
 Nếu `/ioe-media/` vẫn 307 → production **chưa** có middleware mới: Vercel **Redeploy** hoặc đổi **Git repository** trong project settings.
 
+Nếu bạn push `kiennguyen/exam` mà site không đổi: xem [RELEASE-PRODUCTION.md](./RELEASE-PRODUCTION.md) (Vercel có thể vẫn trỏ `vaijob/exam`).
+
 Checklist nhanh trên `https://exam.vaijob.com`:
 
 - [ ] Vào `/` → redirect **`/truy-cap`**
