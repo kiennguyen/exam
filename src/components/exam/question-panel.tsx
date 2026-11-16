@@ -2,6 +2,8 @@
 
 import type { PublicQuestion, UserAnswer } from "@/lib/exam/types";
 import { QuestionMedia } from "./question-media";
+import { ChoiceOptions } from "./choice-options";
+import { WordOrderBuilder } from "./word-order-builder";
 
 interface Props {
   question: PublicQuestion;
@@ -11,13 +13,6 @@ interface Props {
   flagged: boolean;
   onChange: (answer: UserAnswer) => void;
   onToggleFlag: () => void;
-}
-
-function wordOrderTokens(prompt: string): string[] {
-  return prompt
-    .split("/")
-    .map((s) => s.trim())
-    .filter(Boolean);
 }
 
 export function QuestionPanel({
@@ -32,17 +27,7 @@ export function QuestionPanel({
   const isMulti = question.type === "multiple_choice";
   const isFill = question.type === "fill_blank";
   const isWordOrder = question.type === "word_order";
-  const textAnswer = isFill || isWordOrder;
-  const selectedArray = Array.isArray(value) ? value : value ? [value] : [];
   const textValue = typeof value === "string" ? value : "";
-  const tokens = isWordOrder ? wordOrderTokens(question.prompt) : [];
-
-  const toggleMulti = (optionId: string) => {
-    const set = new Set(selectedArray);
-    if (set.has(optionId)) set.delete(optionId);
-    else set.add(optionId);
-    onChange([...set]);
-  };
 
   return (
     <article className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-6">
@@ -79,27 +64,12 @@ export function QuestionPanel({
         </p>
       )}
       {isWordOrder && (
-        <>
-          <p className="text-lg font-semibold text-slate-900">
-            Sắp xếp các mảnh sau thành câu hoàn chỉnh
-          </p>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {tokens.map((t) => (
-              <span
-                key={t}
-                className="rounded-lg border border-slate-200 bg-slate-50 px-3 py-1.5 text-sm text-slate-800"
-              >
-                {t}
-              </span>
-            ))}
-          </div>
-          <p className="mt-2 text-sm text-slate-600">
-            Gõ câu tiếng Anh hoàn chỉnh bên dưới (không phân biệt hoa thường).
-          </p>
-        </>
+        <p className="text-lg font-semibold text-slate-900">
+          Sắp xếp các mảnh sau thành câu hoàn chỉnh
+        </p>
       )}
 
-      {textAnswer ? (
+      {isFill ? (
         <div className="mt-5">
           <label htmlFor={`fill-${question.id}`} className="sr-only">
             Câu trả lời
@@ -112,41 +82,26 @@ export function QuestionPanel({
             autoComplete="off"
             spellCheck={false}
             className="w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 placeholder:text-slate-400 focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500/20"
-            placeholder={isWordOrder ? "Nhập câu hoàn chỉnh..." : "Nhập đáp án..."}
+            placeholder="Nhập đáp án..."
           />
         </div>
+      ) : isWordOrder ? (
+        <WordOrderBuilder
+          questionId={question.id}
+          prompt={question.prompt}
+          value={textValue}
+          onChange={(s) => onChange(s)}
+        />
       ) : (
-        <fieldset className="mt-5 space-y-2" aria-label={`Lựa chọn câu ${index + 1}`}>
-          <legend className="sr-only">Các phương án</legend>
-          {question.options?.map((opt) => {
-            const checked = isMulti
-              ? selectedArray.includes(opt.id)
-              : value === opt.id;
-
-            return (
-              <label
-                key={opt.id}
-                className={`flex cursor-pointer items-start gap-3 rounded-xl border px-4 py-3 transition-colors ${
-                  checked
-                    ? "border-teal-500 bg-teal-50"
-                    : "border-slate-200 hover:border-slate-300 hover:bg-slate-50"
-                }`}
-              >
-                <input
-                  type={isMulti ? "checkbox" : "radio"}
-                  name={`q-${question.id}`}
-                  className="mt-1 h-4 w-4 accent-teal-600"
-                  checked={checked}
-                  onChange={() => {
-                    if (isMulti) toggleMulti(opt.id);
-                    else onChange(opt.id);
-                  }}
-                />
-                <span className="text-slate-800">{opt.label}</span>
-              </label>
-            );
-          })}
-        </fieldset>
+        question.options && (
+          <ChoiceOptions
+            questionId={question.id}
+            options={question.options}
+            multiple={isMulti}
+            value={value}
+            onChange={onChange}
+          />
+        )
       )}
     </article>
   );
